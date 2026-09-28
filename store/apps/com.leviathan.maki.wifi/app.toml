@@ -1,0 +1,7 @@
+# Wi-Fi: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Tools"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "2636d6e5d2cdb15b43b45b38e406f84db51ad882"
+path = "sdk/examples/wifi"

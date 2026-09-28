@@ -1,0 +1,97 @@
+# The store's checks, on every pull request and push: the rules for a submission (scripts/lint.sh),
+# then each app rebuilt from the source its app.toml names and compared with its bundle
+# (scripts/check.sh, `maki reproduce`), with the maki tool scripts/sdk.txt pins. Only the apps a
+# change touches; all of them when run by hand, and weekly, so a drift shows. It never sees the
+# store's keys: stamping and publishing are done offline (scripts/publish.sh).
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      # the Rust the store builds with, as a developer's rust-toolchain.toml can pin it too
+      RUST: "1.96.0"
+      # the Xous toolchain's download asks GitHub's API, which limits anonymous callers
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Which apps
+        id: apps
+        run: |
+          base="${{ github.event.pull_request.base.sha || github.event.before }}"
+          if [ "${{ github.event_name }}" = workflow_dispatch ] || [ "${{ github.event_name }}" = schedule ] \
+             || [ -z "$base" ] || ! git cat-file -e "$base^{commit}" 2>/dev/null; then
+            ids=$(ls apps)
+          else
+            ids=$(scripts/changed.sh "$base" HEAD)
+          fi
+          echo "ids=$(echo $ids)" >> "$GITHUB_OUTPUT"
+          echo "base=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_OUTPUT"
+          echo "Apps to check: ${ids:-none}"
+
+      - name: Rust ${{ env.RUST }}
+        if: steps.apps.outputs.ids != ''
+        run: |
+          rustup toolchain install "$RUST" --profile minimal --target wasm32-unknown-unknown
+          rustup default "$RUST"
+
+      - uses: actions/cache@v4
+        if: steps.apps.outputs.ids != ''
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            .cache/sdk
+          key: sdk-${{ env.RUST }}-${{ hashFiles('scripts/sdk.txt') }}
+
+      - name: The maki tool
+        if: steps.apps.outputs.ids != ''
+        run: echo "MAKI=$(scripts/sdk.sh)" >> "$GITHUB_ENV"
+
+      - name: The rules for a submission
+        if: steps.apps.outputs.ids != ''
+        env:
+          BASE: ${{ steps.apps.outputs.base }}
+        run: scripts/lint.sh ${{ steps.apps.outputs.ids }}
+
+      - name: The Xous toolchain, for native apps
+        if: steps.apps.outputs.ids != ''
+        run: |
+          for id in ${{ steps.apps.outputs.ids }}; do
+            newest=$(ls "apps/$id" | grep -E '^[0-9]+\.maki$' | sort -n | tail -n 1)
+            if "$MAKI" inspect "apps/$id/$newest" | grep -Eq '^ *code +native'; then
+              scripts/sdk.sh --xous > /dev/null
+              break
+            fi
+          done
+
+      - name: Each rebuilt from its source
+        if: steps.apps.outputs.ids != ''
+        run: scripts/check.sh ${{ steps.apps.outputs.ids }}
+
+      - name: Summary
+        if: always() && steps.apps.outputs.ids != ''
+        run: |
+          {
+            echo "### The maki store's checks"
+            for id in ${{ steps.apps.outputs.ids }}; do echo "- \`$id\`"; done
+          } >> "$GITHUB_STEP_SUMMARY"

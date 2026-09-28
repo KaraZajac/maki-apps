@@ -13,9 +13,19 @@ stamp itself before it installs anything (ARCHITECTURE.md in the maki repo, "The
   signed index and the stamped bundles. `scripts/publish.sh` makes it; nothing in it is edited
   by hand.
 - **`revocations.txt`**: what the store revokes, and why.
+- **`scripts/lint.sh`** checks the rules for a submission before anything is built: `apps/ID/`
+  holds `app.toml` and `VERSION.maki` files only; `app.toml` names one of the store's categories,
+  an https repository, a whole commit ID and a directory inside it; each bundle is the app it's
+  filed as, at the version its name says, all signed with one developer key, the newest as the
+  developer signed it (not stamped); and bundles already in the store don't change.
 - **`scripts/check.sh`** rebuilds each app from its source and checks that its bundle is what
   that builds (`maki reproduce`: the manifest, icon and code, byte for byte, given the same
   Rust).
+- **`scripts/sdk.txt`** pins the SDK the store checks with (the maki tool from a commit of
+  maki-firmware), and **`scripts/sdk.sh`** builds it: `MAKI=$(scripts/sdk.sh) scripts/check.sh`.
+- **CI** (`.github/workflows/check.yml`) runs both on every pull request and push, for the apps
+  a change touches, and on all of them weekly and by hand. It has no keys: stamping and
+  publishing stay offline.
 - **`scripts/publish.sh`** stamps each app's newest bundle with the catalogue key, signs the
   revocation list again when it changes, and signs a new index.
 
@@ -34,9 +44,10 @@ stamp itself before it installs anything (ARCHITECTURE.md in the maki repo, "The
    path = "the app's directory in the repository, if it isn't the top"
    ```
 
-3. The store rebuilds it from that commit (`scripts/check.sh YOUR.APP.ID`), reads the source
-   and checks that what it asks to do matches what it does, then stamps it and publishes it
-   (`scripts/publish.sh`).
+3. CI checks it by the rules and rebuilds it from that commit, on the pull request itself (Rust
+   1.96.0, unless your source pins another with a `rust-toolchain.toml`). Then the store reads
+   the source and checks that what it asks to do matches what it does, and stamps it and
+   publishes it (`scripts/publish.sh`).
 
 An update replaces the bundle with one of a higher version (`2.maki` for `1.maki`), signed
 with the same developer key, and points `app.toml` at the commit it's built from; the ones

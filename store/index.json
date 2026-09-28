@@ -2,6 +2,42 @@
   "apps": [
     {
       "backup": true,
+      "bytes": 35108,
+      "category": "Security",
+      "description": "Your age encryption key, from maki's recovery phrase. Anyone can encrypt files to it with age; decrypting one asks you on maki first. Open it for your recipient as a QR code.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////////////////////////////////////H/D///////8DwP///////wAA//////9/AAD+/////z8AAPz/////HwAA+P////8f4Afw/////w/wH/D/////B/g/4P////8H/H/g/////wf+f8D/////A/7/wP////8D///A/////wP//8D/////A///wP////8D///A/////wP//8D/////A///wP////8D///A/////wP//8D/////A///wP////8D///A////fwAAAAD+//8/AAAAAPj//x8AAAAA+P//DwAAAADw//8PAAAAAPD//w8AAAAA8P//DwAAAADw//8PAAAAAPD//w8AwAMA8P//DwDgBwDw//8PAPAPAPD//w8A8A8A8P//DwDwDwDw//8PAPAPAPD//w8A4AcA8P//DwDAAwDw//8PAMADAPD//w8AwAMA8P//DwDAAwDw//8PAMADAPD//w8AwAMA8P//DwDAAwDw//8PAMADAPD//w8AwAMA8P//DwAAAADw//8PAAAAAPD//w8AAAAA8P//DwAAAADw//8PAAAAAPD//x8AAAAA8P//HwAAAAD4//9/AAAAAPz///////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.age",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 64,
+      "name": "Age",
+      "path": "apps/com.leviathan.maki.age/1.maki",
+      "permissions": [
+        {
+          "name": "ask",
+          "reason": "To ask you on maki's screen before each file it decrypts."
+        },
+        {
+          "name": "link",
+          "reason": "So age on your computer can ask maki to decrypt a file for you."
+        },
+        {
+          "name": "keys",
+          "reason": "For your age key: maki's, from your recovery phrase, the same on a restored maki."
+        }
+      ],
+      "sha256": "e0e5f9fee032a55f05facd3765e1a76a624365a2b8c7d532ed02afb3701ad15c",
+      "source": {
+        "commit": "2636d6e5d2cdb15b43b45b38e406f84db51ad882",
+        "path": "sdk/examples/age",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
       "bytes": 9417,
       "category": "Games",
       "description": "Rolls one to three dice with maki's random number generator, and counts the rolls.",
@@ -14,7 +50,7 @@
       "name": "Dice",
       "path": "apps/com.leviathan.maki.dice/1.maki",
       "permissions": [],
-      "sha256": "55f02740e5115e4c472dfa6a40983ed7e878df117d1bded075c6f51d8bc6d73d",
+      "sha256": "681706518bcc78ef0e64dc719192a4f8d59bffa003f4565cd635aa13fc84002c",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/dice",
@@ -50,7 +86,7 @@
           "reason": "For your Nostr key: maki's, from your recovery phrase, the same on a restored maki."
         }
       ],
-      "sha256": "85c64862abe7c6fd4e8068940144ae95e351a317bb9f9940b2b21d0c061d9a73",
+      "sha256": "7b7303a12daf88ae4d3eb179a5ecb135c7fb8d014480686185abb56ed85a7257",
       "source": {
         "commit": "d5d31351ed752977be3102f6775ae6ba96e3546a",
         "path": "sdk/examples/nostr",
@@ -78,7 +114,7 @@
           "reason": "To type the passphrase into your computer when you pick Type it, so you needn't copy it by hand."
         }
       ],
-      "sha256": "1362bd3ca65dbf6099863517fd82e8b09f4453832a69a60e7106bf3e572b2111",
+      "sha256": "6e6ea2d55f55f7debf981137d7bcaab4fb92dbbba7fe3e838d8a358b9ab645f9",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/passphrase",
@@ -101,7 +137,7 @@
       "name": "Pomodoro",
       "path": "apps/com.leviathan.maki.pomodoro/2.maki",
       "permissions": [],
-      "sha256": "1639ebcb036405bdaefb7fe5a7b82ab8a4811548aced94920faf54d2ca7fa7d3",
+      "sha256": "0fd291c2bcf67df6d1abbcdd728b1cd3a51303551cd3ffb93458f96f28bc655c",
       "source": {
         "commit": "5d0b2c0c41e9914511fce0a41b613583425b075f",
         "path": "sdk/examples/pomodoro",
@@ -133,7 +169,7 @@
           "reason": "For the spirit level."
         }
       ],
-      "sha256": "ea74abeae15dd5b3261935de8d803393260d6e4a739d34366527fb46b6c2dd57",
+      "sha256": "3a72aff3de909e497ffb28d7197736c85aea92c3b990ee6d1b8009cac9e84de8",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/sensors",
@@ -156,7 +192,7 @@
       "name": "Snake",
       "path": "apps/com.leviathan.maki.snake/1.maki",
       "permissions": [],
-      "sha256": "8171390dd24c56d5ca80b983f6df3b1eb0a240b031e0c57b61a2fbcd67ecb77a",
+      "sha256": "5e69a2c136d67c2e805b29e3e20f4e124e738f34d678d506ab52d7c4f6d8f7d5",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/snake",
@@ -192,7 +228,7 @@
           "reason": "For your SSH key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "b82f926f086aaed734252eaa9699befb684855928064850c97a29bbde3fa15a2",
+      "sha256": "e50ef00f67c4668fbb980dc0c45dd858c96cdc16219040b5ec363d2b6eea76e4",
       "source": {
         "commit": "d33604eb58cbaf6670f49aa08ae630c94555c986",
         "path": "sdk/examples/ssh",
@@ -220,7 +256,7 @@
           "reason": "So software on your computer can set the status (when a call starts, say) or ask what it is."
         }
       ],
-      "sha256": "91b7d5dfd7448d9c6843b7d4bcbf4c16c09b8d7752433ab741ed265512238e29",
+      "sha256": "1d18e8d79bd2a1b7cc95a32b0f79e3992c9a38133bd93d7e4efb1197dc9cdf56",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/status",
@@ -243,7 +279,7 @@
       "name": "Tally",
       "path": "apps/com.leviathan.maki.tally/1.maki",
       "permissions": [],
-      "sha256": "81f11ffe24e3509545624c1ba34e09beee2fb7ba4a1380b8a87880ceec927774",
+      "sha256": "bff33d65011c94d7acdfe41e9fd48c6d8cf2df740653fa715aa76d0376f5b534",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/tally",
@@ -251,10 +287,42 @@
       },
       "storage_kib": 1,
       "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 16589,
+      "category": "Tools",
+      "description": "Your Wi-Fi networks as QR codes: guests scan maki's screen to join. Add a network by scanning its QR code (a router's sticker, a phone's share screen) or send it from your computer.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8DwP//////PwAA/P////8HAADg/////wEAAID///9/AAAAAP7//z8AAAAA+P//DwAAAADw//8HAPgfAOD//wOA//8BgP//AeD//w8A//8A+P//PwD+fwD+B+B/AP7/AP8AAP8A///BPwAA+IP//+MPAADwx///9wcAAMDv////AQAAgP////8AAAAA////fwDwDwD+////AP5/AP////+B//+B/////8P//8P/////5x/w5///////A8D///////8BgP///////wAA/v////9/AAD+//////8BAP///////wPA////////B+D///////8P8P///////w/w////////B+D///////8H4P///////wfg////////B+D///////8P4P///////w/w////////P/j///////////////////////////////////8=",
+      "id": "com.leviathan.maki.wifi",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 64,
+      "name": "Wi-Fi",
+      "path": "apps/com.leviathan.maki.wifi/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So your computer can send it networks to show, or ask which it has."
+        },
+        {
+          "name": "camera",
+          "reason": "To read a network's QR code, from a router's sticker or a phone's share screen."
+        }
+      ],
+      "sha256": "30a1124d900c4efb98b68080562207cd670af73b2af1d25d46a12d58dd806449",
+      "source": {
+        "commit": "2636d6e5d2cdb15b43b45b38e406f84db51ad882",
+        "path": "sdk/examples/wifi",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 2,
+      "version": 1
     }
   ],
-  "expires": 2105937952,
+  "expires": 2105958816,
   "format": 1,
   "root": 2,
-  "version": 2026092806
+  "version": 2026092812
 }
