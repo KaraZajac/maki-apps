@@ -34,10 +34,10 @@ for id in $ids; do
     fi
     git -C "$checkout" cat-file -e "$commit^{commit}" 2>/dev/null || git -C "$checkout" fetch --quiet origin "$commit"
     git -C "$checkout" -c advice.detachedHead=false checkout --quiet --force "$commit"
-    for bundle in "$HERE/apps/$id"/*.maki; do
-        echo "== $id: $(basename "$bundle") from $repo at ${commit%"${commit#????????????}"} ${path:+($path)}"
-        "$MAKI" reproduce "$bundle" "$checkout/$path" || failed="$failed $id"
-    done
+    # the newest bundle: the one app.toml's commit builds (git keeps the ones before)
+    bundle=$HERE/apps/$id/$(ls "$HERE/apps/$id" | grep '^[0-9]*\.maki$' | sort -n | tail -n 1)
+    echo "== $id: $(basename "$bundle") from $repo at ${commit%"${commit#????????????}"} ${path:+($path)}"
+    "$MAKI" reproduce "$bundle" "$checkout/$path" || failed="$failed $id"
 done
 if [ -n "$failed" ]; then
     echo "not what their source builds:$failed"

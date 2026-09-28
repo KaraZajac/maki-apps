@@ -7,8 +7,8 @@ stamp itself before it installs anything (ARCHITECTURE.md in the maki repo, "The
 ## What's here
 
 - **`apps/ID/`**, one app each: `app.toml`, which says where its source is (a Git repository
-  and the commit it's built from) and its category, and its developer's signed bundles,
-  `VERSION.maki`, as the developer made them.
+  and the commit it's built from) and its category, and its developer's signed bundle,
+  `VERSION.maki`, as the developer made it.
 - **`store/`**, the store as maki desktop fetches it: the roots, the revocation list, the
   signed index and the stamped bundles. `scripts/publish.sh` makes it; nothing in it is edited
   by hand.
@@ -38,9 +38,9 @@ stamp itself before it installs anything (ARCHITECTURE.md in the maki repo, "The
    and checks that what it asks to do matches what it does, then stamps it and publishes it
    (`scripts/publish.sh`).
 
-An update is a new bundle beside the old ones (`2.maki`) with a higher version, signed with the
-same developer key, and `app.toml` pointing at the commit it's built from. maki takes an update
-to a store app only from the store.
+An update replaces the bundle with one of a higher version (`2.maki` for `1.maki`), signed
+with the same developer key, and points `app.toml` at the commit it's built from; the ones
+before stay in the history. maki takes an update to a store app only from the store.
 
 ## How maki desktop uses it
 

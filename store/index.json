@@ -14,7 +14,7 @@
       "name": "Dice",
       "path": "apps/com.leviathan.maki.dice/1.maki",
       "permissions": [],
-      "sha256": "4edbddfa51c8e4b98f582905a21ecd004f449bfdea27a6f22e328ae8a5f1c9e3",
+      "sha256": "695538aa0048a17a4e0428aa0dbc099dea8a06ed7813ef3aff69f751bbdcac6f",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/dice",
@@ -25,26 +25,26 @@
     },
     {
       "backup": false,
-      "bytes": 91546,
+      "bytes": 92839,
       "category": "Productivity",
-      "description": "A focus timer: a circle shrinks to a dot while you work, the screen flashes, and the dot grows back while you rest.",
+      "description": "A focus timer, like a clock: a pie empties as you work, the screen flashes, and it fills back up while you rest.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
-      "icon": "/////////////////////////////////////////////////P///////9vY//////9////+/////9////v/////8///n//////z//+f//////7//3/////f//////v/////////////9//////v////////////////////////+/8P8P/f/////wGA//////x/AAD+f/7//D8AAPx//v//HwAA+P//f/8PAADw//7//wcAAOD//7//AwAAwP/9//8DAADA/////wEAAID//9//AQAAgP/7//8BAACA/////wAAAAD//9//AAAAAP/7//8AAAAA/////wAAAAD/88//AAAAAP/zz/8AAAAA///f/wAAAAD/+///AAAAAP////8BAACA///f/wEAAID/+///AQAAgP////8DAADA//+//wMAAMD//f//BwAA4P//f/8PAADw//7//x8AAPj/////PwAA/P////x/AAD+f/7//P8BgP9//v/7/w/w/9/////////////////////////3/////+//////////////3//////7/////v//f/////////////////P//5//////0///m/////9////+///////b2P/////////8//////////////////////////////////////////////8=",
+      "icon": "////////////////////////////////////f/z///////9//P///////3/8//////////////////n//z//////+f//P///////B+D///////8AD///////HwD/+P////8PAP/z/////wMA/8//////AQD/n/////8AAP8/////fwAA///+/38+AAD///z8fx4AAP//+fz/HwAA///7//8PAAD///f//wcAAP//5///BwAA///v//8HAAD//+///wMAAP//3///AwAA///f//8DAAD//9///wEAAP//n///AQAA//+///8BAAD//7///wEAAP//v//HAQAA//+/x8cBAAAAAIDHxwEAAAAAgMf/AQAAAACA//8BAAAAAID//wEAAAAAgP//AwAAAADA//8DAAAAAMD//wMAAAAAwP//BwAAAADg//8HAAAAAOD//wcAAAAA4P//DwAAAADw//8fAAAAAPj//x8AAAAA+Px/PgAAAAD8/H9+AAAAAP7///8AAAAA/////wEAAID/////AwAAwP////8PAADw/////x8AAPj//////wAA////////B+D/////////////////+f//P//////5//8//////////////////3/8////////f/z///////9//P////////////////////////8=",
       "id": "com.leviathan.maki.pomodoro",
       "kind": "native",
-      "label": "1.0",
+      "label": "2.0",
       "memory_kib": 256,
       "name": "Pomodoro",
-      "path": "apps/com.leviathan.maki.pomodoro/1.maki",
+      "path": "apps/com.leviathan.maki.pomodoro/2.maki",
       "permissions": [],
-      "sha256": "a1c3ceacbb0f00b7a15f8dce74c93dc762e5a1cc3e23567e948de394102eecd4",
+      "sha256": "ef048f217bd8c08663dd68dfa557902dfe724a5ae3212c501a6f495647312878",
       "source": {
-        "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
+        "commit": "5d0b2c0c41e9914511fce0a41b613583425b075f",
         "path": "sdk/examples/pomodoro",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
-      "version": 1
+      "version": 2
     },
     {
       "backup": false,
@@ -69,7 +69,7 @@
           "reason": "For the spirit level."
         }
       ],
-      "sha256": "f05e2344f3413b9d54ba0a7f8352ed35f77295103a4a1c1854de1dc6ebdb2eb6",
+      "sha256": "f68ee8164e5b2d47bbea2793a53309ebb56607fd327ce6ed7e70704eafe915dc",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/sensors",
@@ -105,7 +105,7 @@
           "reason": "For your SSH key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "b0b67c8b72ab7370edb922f3bfa7c4d838c1a6fe6ae30366cd0fd946b1ba2804",
+      "sha256": "a37fb88a401dcf8cd3b32af12530d7d0e608b79933b28509aa38405c74b360eb",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/ssh",
@@ -128,7 +128,7 @@
       "name": "Tally",
       "path": "apps/com.leviathan.maki.tally/1.maki",
       "permissions": [],
-      "sha256": "3e77bcc0e8a17a91b080f0c429011e0a9e8a402bed426f0efda56b1db4cd380f",
+      "sha256": "29b75c7fcfe3aebf43cdde2da00894b47e0214fb5e8008d01657a79a04e76fdd",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/tally",
@@ -138,8 +138,8 @@
       "version": 1
     }
   ],
-  "expires": 2105922147,
+  "expires": 2105926240,
   "format": 1,
   "root": 2,
-  "version": 2026092802
+  "version": 2026092803
 }

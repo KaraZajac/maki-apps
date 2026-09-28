@@ -3,5 +3,5 @@ category = "Productivity"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "a2d58764d62bff597f19a5f577cba22aa864f381"
+commit = "5d0b2c0c41e9914511fce0a41b613583425b075f"
 path = "sdk/examples/pomodoro"
