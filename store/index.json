@@ -14,10 +14,38 @@
       "name": "Dice",
       "path": "apps/com.leviathan.maki.dice/1.maki",
       "permissions": [],
-      "sha256": "89c2f3935a5ed1e36170013af4f6512ecd2981ae2a8b4931964fef9dd4ab1103",
+      "sha256": "de326f534b0cd71767d530fc3a1e6c2dc221da53e109360d89343de17c95d036",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/dice",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 73973,
+      "category": "Security",
+      "description": "Passphrases from maki's random number generator: four to eight words from the EFF's long word list, about 13 bits each. Never stored; typed into your computer only if you ask.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "//////////////////////////////////////////////////////////////////////////////////////8AAAAAAP7/fwAAAAAA/P8/AAAAAAD8/z8AAAAAAPz/PwAAAAAA/P9/AAAAAAD+//////////////////////////////////////////////////////////////////8AAADg////fwAAAMD///8/AAAAwP///z8AAADA////PwAAAMD///9/AAAA4P////////////////////////////////////////////////////////////////////8AAOA/AID/fwAAwA8AAP8/AADABwAA/j8AAMCH/h/8PwAAwEP8P/x/AADgI/h//P////8D+H/8/////yP4f/z/////Y/x//P/////jn3/8/////+MPf/z/////4wd+/P/////jB378/////+MPf/z/////459//P/////j/2P8/////+P/Qfz/////4/9B/P/////j/0H8/////8P/Y/z/////g/8//P////8HAAD+/////w8AAP//////HwCA//////////////////////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.passphrase",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 128,
+      "name": "Passphrase",
+      "path": "apps/com.leviathan.maki.passphrase/1.maki",
+      "permissions": [
+        {
+          "name": "keyboard",
+          "reason": "To type the passphrase into your computer when you pick Type it, so you needn't copy it by hand."
+        }
+      ],
+      "sha256": "925cc541952c8e2bcdf0ebc1494ec02e905ebd4169ead54106da28958132d55e",
+      "source": {
+        "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
+        "path": "sdk/examples/passphrase",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
@@ -37,7 +65,7 @@
       "name": "Pomodoro",
       "path": "apps/com.leviathan.maki.pomodoro/2.maki",
       "permissions": [],
-      "sha256": "9b03fd6279da59235bcaa2d194bfb9132108e1a5347d61ec88e410246b924bb0",
+      "sha256": "70b965c628f865cafe49234d54a3f2babfa6ae4b34030c0aa201f41b3d97e5b9",
       "source": {
         "commit": "5d0b2c0c41e9914511fce0a41b613583425b075f",
         "path": "sdk/examples/pomodoro",
@@ -69,10 +97,33 @@
           "reason": "For the spirit level."
         }
       ],
-      "sha256": "443d71776eebbb97beba1b2c9d00886dab43a4918eb6852e34561055bb205432",
+      "sha256": "392b1c061b990462cbdddb71157ba226a637cbfe8758d4fb179071de11740c08",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/sensors",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 11687,
+      "category": "Games",
+      "description": "The snake game, with maki's three buttons: left and right turn it, the centre pauses. Eat to grow; walls and your own tail end it. Keeps your best score.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "/////////////////////////////////////////////////////////////////////////////////////////////////////////////+H///8A+P//gP//PwDw/3+A/z8AAPD/PwD/PwBw8P8/AP8/AHDw/z8A/z8AcPD/PwD/PwAA8P9/AP8/AADw/3+A/z8AAPD//8H/PwAA8P////8/AADw/////z9AAPj/////P8D///////8/wP///////z/A////////P8D///////8/wP///////z/A////////P8D///////8/wP///////z/A////////P8D//z8AAMA/wP//PwAAwD/A//8/AADAP8D//z8AAMA/wP//PwAAwD/A//8/AADAP8D//z8AAMA/wP//PwAAwD/A//8/wD/AP8D//z/AP8A/wP//P8A/wD/A//8/wD/AP8D//z/AP8A/wP//P8A/wD/A//8/wD8AAMD//z/APwAAwP//P8A/AADA//8/wD8AAMD//z/APwAAwP//P8A/AADA//8/wD8AAMD//z/APwAAwP//P8D///////8/wP///////z/A////////P8D///////8/wP///////z/A//////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.snake",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 64,
+      "name": "Snake",
+      "path": "apps/com.leviathan.maki.snake/1.maki",
+      "permissions": [],
+      "sha256": "2eb7f21291ee872f5408dc1f3068da79f5315b3faa899fc4f3eb3edef24bcd4f",
+      "source": {
+        "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
+        "path": "sdk/examples/snake",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
@@ -105,7 +156,7 @@
           "reason": "For your SSH key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "279e89be54d8e8de70fddbd438c590c59ccbbffd8251d35cc9a74b29e2c087e1",
+      "sha256": "749c44b71335be3ce3a14667fb965e946c50c304be3d4b34326c1af5b24ab4b3",
       "source": {
         "commit": "d33604eb58cbaf6670f49aa08ae630c94555c986",
         "path": "sdk/examples/ssh",
@@ -113,6 +164,34 @@
       },
       "storage_kib": 1,
       "version": 2
+    },
+    {
+      "backup": true,
+      "bytes": 42915,
+      "category": "Productivity",
+      "description": "A sign on maki's screen, big enough to read across the room: Available, Busy, On a call and the like. Software on your computer can set it too.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "//////////////////////////////////8fwAPw/////wfAA+D/////A8ADwP////8DwAOA/////wHAA4D/////AcADgP////8B4AeA/////wHwD4D/////AfgfgP////8B/D+A/////wH+f4D/////Af5/gP////8B/n+A/////wH+f4D/////Af5/gP////8B/n+A/////wH8P4D/////Afg/gP////8B8B+A/////wHgB4D/////AQAAgP////8BAACA/////wEAAID/////AQAAgP////8BAACA/////wEAAID/////AQAAgP////8BAACA/////wEAAID/////AQAAgP////+B//+B/////8H//4P/////wf//g//////B//+D/////4H//4H/////AQAAgP////8BAACA/////wEAAID/////AQAAgP////8BAACA/////4H/B4D/////wf8PgP/////B/w+A/////8H/D4D/////gf8HgP////8BAACA/////wEAAID/////AQAAgP////8BAACA/////wEAAID/////AQAAgP////8BAACA/////wEAAID/////AQAAgP////8BAACA/////wMAAMD/////BwAA4P////8PAADw//////////////////////////////////8=",
+      "id": "com.leviathan.maki.status",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 128,
+      "name": "Status",
+      "path": "apps/com.leviathan.maki.status/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So software on your computer can set the status (when a call starts, say) or ask what it is."
+        }
+      ],
+      "sha256": "79bfc0612bf8e4b50bbf729644880680f7b1e4671b3272c7f014ad5df0bc1d83",
+      "source": {
+        "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
+        "path": "sdk/examples/status",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 1,
+      "version": 1
     },
     {
       "backup": true,
@@ -128,7 +207,7 @@
       "name": "Tally",
       "path": "apps/com.leviathan.maki.tally/1.maki",
       "permissions": [],
-      "sha256": "44dfdf5828c10f045f03faf926eb347164282ad5e045f5718119f321eca67249",
+      "sha256": "24a27ab57728ac34dcee5d09c88dd012ae3ce2d20e3784a50353f55d24da044a",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/tally",
@@ -138,8 +217,8 @@
       "version": 1
     }
   ],
-  "expires": 2105927887,
+  "expires": 2105933288,
   "format": 1,
   "root": 2,
-  "version": 2026092804
+  "version": 2026092805
 }

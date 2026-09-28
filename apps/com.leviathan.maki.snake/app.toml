@@ -1,0 +1,7 @@
+# Snake: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Games"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "4ceb61845662c57346107a7ab201a0ae3e66e141"
+path = "sdk/examples/snake"

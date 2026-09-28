@@ -46,9 +46,9 @@ before stay in the history. maki takes an update to a store app only from the st
 
 maki desktop fetches `store/` from this repository, checks the root chain, the index and the
 revocation list against the root it carries, and lists the store's apps under Apps; maki
-checks everything again itself. While the repository is private, maki desktop needs a token to
-read it (`MAKI_STORE_TOKEN=$(gh auth token) npm run dev`); `MAKI_STORE` points it at another
-copy of the store, a folder (this repository's `store/`) or an https address.
+checks everything again itself. `MAKI_STORE` points it at another copy of the store, a folder
+(this repository's `store/`) or an https address; a copy in a private GitHub repository needs a
+token to read it (`MAKI_STORE_TOKEN=$(gh auth token) npm run dev`).
 
 ## Keys
 
