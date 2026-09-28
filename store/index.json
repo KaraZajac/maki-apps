@@ -14,13 +14,49 @@
       "name": "Dice",
       "path": "apps/com.leviathan.maki.dice/1.maki",
       "permissions": [],
-      "sha256": "de326f534b0cd71767d530fc3a1e6c2dc221da53e109360d89343de17c95d036",
+      "sha256": "55f02740e5115e4c472dfa6a40983ed7e878df117d1bded075c6f51d8bc6d73d",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/dice",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 33646,
+      "category": "Social",
+      "description": "Your Nostr key, from maki's recovery phrase. Sites use it through the maki extension (NIP-07): maki asks before a site sees it, and shows each note before it signs. Open it for your npub as a QR code.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "//////////////////////////////////////8D/////////wH8//////9/APj//////39g8P//////P/Dw//////8/8ID//////z/gAPj/////PwAA8P////9/AAD//////38A4P///////wD8////////AP7////////g/////////+D///////9/4P///////3/w////////f/D///////9/8P///////z/w////////P/j///////8/+P//+////x/4///z////H/z//+P/HwAf/P//h/8BAAD8//8HPwAAAPz//wcOAAAA/v//BwQAAAD+//8HAAAAAPz//w8AAAAA+P//DwAAAADw//8fAAAAAPD//z8AAAAA8P//fwAAAADw////AAAAAPD///8AAAAA8P///wEAAAD4////AwAAAPz///8HAAAA/v///w8AAAD/////PwAAgP//////AADw//////8HAP7//////48f////////jz/+//////+PP/7//////4c//v//////xz/+///////HP/z//////8d//P//////x3/8///////jf/z//////+N/+P//////4//4///////j//j///////H/+P//////8f/4//////+B/4H//////4P/g/////////////////////////8=",
+      "id": "com.leviathan.maki.nostr",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 128,
+      "name": "Nostr",
+      "path": "apps/com.leviathan.maki.nostr/1.maki",
+      "permissions": [
+        {
+          "name": "ask",
+          "reason": "To ask you before a site sees your key, and before each thing it signs."
+        },
+        {
+          "name": "link",
+          "reason": "So sites can ask for your key and signatures through the maki extension and maki desktop."
+        },
+        {
+          "name": "keys",
+          "reason": "For your Nostr key: maki's, from your recovery phrase, the same on a restored maki."
+        }
+      ],
+      "sha256": "85c64862abe7c6fd4e8068940144ae95e351a317bb9f9940b2b21d0c061d9a73",
+      "source": {
+        "commit": "d5d31351ed752977be3102f6775ae6ba96e3546a",
+        "path": "sdk/examples/nostr",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 2,
       "version": 1
     },
     {
@@ -42,7 +78,7 @@
           "reason": "To type the passphrase into your computer when you pick Type it, so you needn't copy it by hand."
         }
       ],
-      "sha256": "925cc541952c8e2bcdf0ebc1494ec02e905ebd4169ead54106da28958132d55e",
+      "sha256": "1362bd3ca65dbf6099863517fd82e8b09f4453832a69a60e7106bf3e572b2111",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/passphrase",
@@ -65,7 +101,7 @@
       "name": "Pomodoro",
       "path": "apps/com.leviathan.maki.pomodoro/2.maki",
       "permissions": [],
-      "sha256": "70b965c628f865cafe49234d54a3f2babfa6ae4b34030c0aa201f41b3d97e5b9",
+      "sha256": "1639ebcb036405bdaefb7fe5a7b82ab8a4811548aced94920faf54d2ca7fa7d3",
       "source": {
         "commit": "5d0b2c0c41e9914511fce0a41b613583425b075f",
         "path": "sdk/examples/pomodoro",
@@ -97,7 +133,7 @@
           "reason": "For the spirit level."
         }
       ],
-      "sha256": "392b1c061b990462cbdddb71157ba226a637cbfe8758d4fb179071de11740c08",
+      "sha256": "ea74abeae15dd5b3261935de8d803393260d6e4a739d34366527fb46b6c2dd57",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/sensors",
@@ -120,7 +156,7 @@
       "name": "Snake",
       "path": "apps/com.leviathan.maki.snake/1.maki",
       "permissions": [],
-      "sha256": "2eb7f21291ee872f5408dc1f3068da79f5315b3faa899fc4f3eb3edef24bcd4f",
+      "sha256": "8171390dd24c56d5ca80b983f6df3b1eb0a240b031e0c57b61a2fbcd67ecb77a",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/snake",
@@ -156,7 +192,7 @@
           "reason": "For your SSH key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "749c44b71335be3ce3a14667fb965e946c50c304be3d4b34326c1af5b24ab4b3",
+      "sha256": "b82f926f086aaed734252eaa9699befb684855928064850c97a29bbde3fa15a2",
       "source": {
         "commit": "d33604eb58cbaf6670f49aa08ae630c94555c986",
         "path": "sdk/examples/ssh",
@@ -184,7 +220,7 @@
           "reason": "So software on your computer can set the status (when a call starts, say) or ask what it is."
         }
       ],
-      "sha256": "79bfc0612bf8e4b50bbf729644880680f7b1e4671b3272c7f014ad5df0bc1d83",
+      "sha256": "91b7d5dfd7448d9c6843b7d4bcbf4c16c09b8d7752433ab741ed265512238e29",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/status",
@@ -207,7 +243,7 @@
       "name": "Tally",
       "path": "apps/com.leviathan.maki.tally/1.maki",
       "permissions": [],
-      "sha256": "24a27ab57728ac34dcee5d09c88dd012ae3ce2d20e3784a50353f55d24da044a",
+      "sha256": "81f11ffe24e3509545624c1ba34e09beee2fb7ba4a1380b8a87880ceec927774",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/tally",
@@ -217,8 +253,8 @@
       "version": 1
     }
   ],
-  "expires": 2105933288,
+  "expires": 2105937952,
   "format": 1,
   "root": 2,
-  "version": 2026092805
+  "version": 2026092806
 }

@@ -1,0 +1,7 @@
+# Nostr: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Social"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "d5d31351ed752977be3102f6775ae6ba96e3546a"
+path = "sdk/examples/nostr"
