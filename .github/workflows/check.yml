@@ -30,7 +30,7 @@ jobs:
       # the Xous toolchain's download asks GitHub's API, which limits anonymous callers
       GITHUB_TOKEN: ${{ github.token }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -54,7 +54,7 @@ jobs:
           rustup toolchain install "$RUST" --profile minimal --target wasm32-unknown-unknown
           rustup default "$RUST"
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         if: steps.apps.outputs.ids != ''
         with:
           path: |
