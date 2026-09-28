@@ -1,8 +1,9 @@
 # The store's checks, on every pull request and push: the rules for a submission (scripts/lint.sh),
 # then each app rebuilt from the source its app.toml names and compared with its bundle
 # (scripts/check.sh, `maki reproduce`), with the maki tool scripts/sdk.txt pins. Only the apps a
-# change touches; all of them when run by hand, and weekly, so a drift shows. It never sees the
-# store's keys: stamping and publishing are done offline (scripts/publish.sh).
+# change touches; all of them when the pinned tool changes, when run by hand, and weekly, so a
+# drift shows. It never sees the store's keys: stamping and publishing are done offline
+# (scripts/publish.sh).
 name: check
 
 on:
@@ -40,6 +41,9 @@ jobs:
           base="${{ github.event.pull_request.base.sha || github.event.before }}"
           if [ "${{ github.event_name }}" = workflow_dispatch ] || [ "${{ github.event_name }}" = schedule ] \
              || [ -z "$base" ] || ! git cat-file -e "$base^{commit}" 2>/dev/null; then
+            ids=$(ls apps)
+          elif ! git diff --quiet "$base" HEAD -- scripts/sdk.txt scripts/sdk.sh scripts/check.sh; then
+            # another maki tool, or another way of using it: every app must still rebuild as it is
             ids=$(ls apps)
           else
             ids=$(scripts/changed.sh "$base" HEAD)

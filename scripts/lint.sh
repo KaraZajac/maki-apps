@@ -10,7 +10,7 @@ set -eu
 HERE=$(cd "$(dirname "$0")/.." && pwd)
 MAKI=${MAKI:-maki}
 # the store's categories, as maki desktop lists them: a new one is the store's to add
-CATEGORIES="Games Productivity Security Social Tools"
+CATEGORIES="Finance Games Productivity Security Social Tools"
 
 value() { sed -n "s/^$1 *= *\"\(.*\)\" *\$/\1/p" "$2" | head -n 1; }
 

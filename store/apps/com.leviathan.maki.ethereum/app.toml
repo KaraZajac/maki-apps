@@ -1,0 +1,7 @@
+# Ethereum: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Finance"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "cd1adc952fb0fde9c0aef52f0b9c6581d6bf97d7"
+path = "sdk/examples/ethereum"

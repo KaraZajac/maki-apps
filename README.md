@@ -24,8 +24,8 @@ stamp itself before it installs anything (ARCHITECTURE.md in the maki repo, "The
 - **`scripts/sdk.txt`** pins the SDK the store checks with (the maki tool from a commit of
   maki-firmware), and **`scripts/sdk.sh`** builds it: `MAKI=$(scripts/sdk.sh) scripts/check.sh`.
 - **CI** (`.github/workflows/check.yml`) runs both on every pull request and push, for the apps
-  a change touches, and on all of them weekly and by hand. It has no keys: stamping and
-  publishing stay offline.
+  a change touches, and on all of them when the pinned tool changes, weekly and by hand. It has
+  no keys: stamping and publishing stay offline.
 - **`scripts/publish.sh`** stamps each app's newest bundle with the catalogue key, signs the
   revocation list again when it changes, and signs a new index.
 
