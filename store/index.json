@@ -2,7 +2,7 @@
   "apps": [
     {
       "backup": true,
-      "bytes": 35108,
+      "bytes": 34468,
       "category": "Security",
       "description": "Your age encryption key, from maki's recovery phrase. Anyone can encrypt files to it with age; decrypting one asks you on maki first. Open it for your recipient as a QR code.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
@@ -27,7 +27,7 @@
           "reason": "For your age key: maki's, from your recovery phrase, the same on a restored maki."
         }
       ],
-      "sha256": "e0e5f9fee032a55f05facd3765e1a76a624365a2b8c7d532ed02afb3701ad15c",
+      "sha256": "90d74b9c5902e8e75ff23e92f4813336f76fba0908b1cc33af8b27fcdb4a3b34",
       "source": {
         "commit": "2636d6e5d2cdb15b43b45b38e406f84db51ad882",
         "path": "sdk/examples/age",
@@ -50,7 +50,7 @@
       "name": "Dice",
       "path": "apps/com.leviathan.maki.dice/1.maki",
       "permissions": [],
-      "sha256": "681706518bcc78ef0e64dc719192a4f8d59bffa003f4565cd635aa13fc84002c",
+      "sha256": "f99b9c9e7796afb7deceec4482bb82920c05775210886657dd49bc8b43c6631e",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/dice",
@@ -61,7 +61,7 @@
     },
     {
       "backup": true,
-      "bytes": 33646,
+      "bytes": 33598,
       "category": "Social",
       "description": "Your Nostr key, from maki's recovery phrase. Sites use it through the maki extension (NIP-07): maki asks before a site sees it, and shows each note before it signs. Open it for your npub as a QR code.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
@@ -86,7 +86,7 @@
           "reason": "For your Nostr key: maki's, from your recovery phrase, the same on a restored maki."
         }
       ],
-      "sha256": "7b7303a12daf88ae4d3eb179a5ecb135c7fb8d014480686185abb56ed85a7257",
+      "sha256": "6f30b93868cc648eb8b65b67b4fa25ad4544da3a1ea73a6d88762c54ded658fb",
       "source": {
         "commit": "d5d31351ed752977be3102f6775ae6ba96e3546a",
         "path": "sdk/examples/nostr",
@@ -97,7 +97,7 @@
     },
     {
       "backup": true,
-      "bytes": 73973,
+      "bytes": 73937,
       "category": "Security",
       "description": "Passphrases from maki's random number generator: four to eight words from the EFF's long word list, about 13 bits each. Never stored; typed into your computer only if you ask.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
@@ -114,7 +114,7 @@
           "reason": "To type the passphrase into your computer when you pick Type it, so you needn't copy it by hand."
         }
       ],
-      "sha256": "6e6ea2d55f55f7debf981137d7bcaab4fb92dbbba7fe3e838d8a358b9ab645f9",
+      "sha256": "2c69fdc30f270aa781664aba27d16506a1255bd43f827c5ebcbe29e5fe07b565",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/passphrase",
@@ -137,7 +137,7 @@
       "name": "Pomodoro",
       "path": "apps/com.leviathan.maki.pomodoro/2.maki",
       "permissions": [],
-      "sha256": "0fd291c2bcf67df6d1abbcdd728b1cd3a51303551cd3ffb93458f96f28bc655c",
+      "sha256": "856bc59db872fbacafbbfd6485575e0c3cfcd5f3dbb86008797ae8b653cf7281",
       "source": {
         "commit": "5d0b2c0c41e9914511fce0a41b613583425b075f",
         "path": "sdk/examples/pomodoro",
@@ -169,7 +169,7 @@
           "reason": "For the spirit level."
         }
       ],
-      "sha256": "3a72aff3de909e497ffb28d7197736c85aea92c3b990ee6d1b8009cac9e84de8",
+      "sha256": "1927cf617178fec2e633725816c2e72b89c26eba49c48d3f80e1ed2e489a3ec7",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/sensors",
@@ -192,7 +192,7 @@
       "name": "Snake",
       "path": "apps/com.leviathan.maki.snake/1.maki",
       "permissions": [],
-      "sha256": "5e69a2c136d67c2e805b29e3e20f4e124e738f34d678d506ab52d7c4f6d8f7d5",
+      "sha256": "6ee4c9e591f550eccf251fe7411aeb0363f75cd28811d92cb3c8f1b54b920428",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/snake",
@@ -203,7 +203,7 @@
     },
     {
       "backup": false,
-      "bytes": 30478,
+      "bytes": 30350,
       "category": "Security",
       "description": "An SSH key from your recovery phrase, for ssh and git through maki desktop's SSH agent. Every sign-in and signature waits for your yes on maki.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
@@ -228,7 +228,7 @@
           "reason": "For your SSH key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "e50ef00f67c4668fbb980dc0c45dd858c96cdc16219040b5ec363d2b6eea76e4",
+      "sha256": "1eb4fd4bcb62db351fc3892f8ae8faed91c85e0b9a481d9db576e23db44c87b0",
       "source": {
         "commit": "d33604eb58cbaf6670f49aa08ae630c94555c986",
         "path": "sdk/examples/ssh",
@@ -256,7 +256,7 @@
           "reason": "So software on your computer can set the status (when a call starts, say) or ask what it is."
         }
       ],
-      "sha256": "1d18e8d79bd2a1b7cc95a32b0f79e3992c9a38133bd93d7e4efb1197dc9cdf56",
+      "sha256": "684a278b1fc1c8f7ca25d226acd04ca06b38281c90eaa642d10e477c10383e9f",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/status",
@@ -279,7 +279,7 @@
       "name": "Tally",
       "path": "apps/com.leviathan.maki.tally/1.maki",
       "permissions": [],
-      "sha256": "bff33d65011c94d7acdfe41e9fd48c6d8cf2df740653fa715aa76d0376f5b534",
+      "sha256": "527d95c52f622344b190303d28fc21627ffc4d2ea5dbb4dd90363d72e2ae5f84",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/tally",
@@ -290,7 +290,7 @@
     },
     {
       "backup": true,
-      "bytes": 16589,
+      "bytes": 16553,
       "category": "Tools",
       "description": "Your Wi-Fi networks as QR codes: guests scan maki's screen to join. Add a network by scanning its QR code (a router's sticker, a phone's share screen) or send it from your computer.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
@@ -311,7 +311,7 @@
           "reason": "To read a network's QR code, from a router's sticker or a phone's share screen."
         }
       ],
-      "sha256": "30a1124d900c4efb98b68080562207cd670af73b2af1d25d46a12d58dd806449",
+      "sha256": "b45168038503145bb38f3ccfed6b94939df98ed3c120b06efe96b09b248c4d24",
       "source": {
         "commit": "2636d6e5d2cdb15b43b45b38e406f84db51ad882",
         "path": "sdk/examples/wifi",
@@ -321,8 +321,8 @@
       "version": 1
     }
   ],
-  "expires": 2105958816,
+  "expires": 2105959652,
   "format": 1,
   "root": 2,
-  "version": 2026092812
+  "version": 2026092813
 }

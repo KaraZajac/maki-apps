@@ -1,4 +1,4 @@
 # The SDK the store checks and rebuilds apps with: the maki tool from this repository, at this
 # commit (scripts/sdk.sh builds it). Moving it on is the store's decision: a newer tool must still
 # rebuild every app in the store as it is (scripts/check.sh, all of them).
-https://github.com/KaraZajac/maki-firmware 2636d6e5d2cdb15b43b45b38e406f84db51ad882
+https://github.com/KaraZajac/maki-firmware 37c550b3cc350e72094d401935ad3813dc613ec7
