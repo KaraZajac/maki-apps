@@ -14,7 +14,7 @@
       "name": "Dice",
       "path": "apps/com.leviathan.maki.dice/1.maki",
       "permissions": [],
-      "sha256": "695538aa0048a17a4e0428aa0dbc099dea8a06ed7813ef3aff69f751bbdcac6f",
+      "sha256": "89c2f3935a5ed1e36170013af4f6512ecd2981ae2a8b4931964fef9dd4ab1103",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/dice",
@@ -37,7 +37,7 @@
       "name": "Pomodoro",
       "path": "apps/com.leviathan.maki.pomodoro/2.maki",
       "permissions": [],
-      "sha256": "ef048f217bd8c08663dd68dfa557902dfe724a5ae3212c501a6f495647312878",
+      "sha256": "9b03fd6279da59235bcaa2d194bfb9132108e1a5347d61ec88e410246b924bb0",
       "source": {
         "commit": "5d0b2c0c41e9914511fce0a41b613583425b075f",
         "path": "sdk/examples/pomodoro",
@@ -69,7 +69,7 @@
           "reason": "For the spirit level."
         }
       ],
-      "sha256": "f68ee8164e5b2d47bbea2793a53309ebb56607fd327ce6ed7e70704eafe915dc",
+      "sha256": "443d71776eebbb97beba1b2c9d00886dab43a4918eb6852e34561055bb205432",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/sensors",
@@ -80,17 +80,17 @@
     },
     {
       "backup": false,
-      "bytes": 29911,
+      "bytes": 30478,
       "category": "Security",
       "description": "An SSH key from your recovery phrase, for ssh and git through maki desktop's SSH agent. Every sign-in and signature waits for your yes on maki.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
       "icon": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw////////D/D///////8P8P///////w/w////////D/D///////8P8P///////w/w////////D/D///////8PMAAAAAAAAAwwAAAAAAAADDAAAAAAAAAMMAAAAAAAAAwwAAAAAAAADDAAAAAAAAAMMAAAAAAAAAwwAAAAAAAADDDAAQAAAAAMMIADAAAAAAwwAAcAAAAADDAADgAAAAAMMAAcAAAAAAwwADgAAAAADDAAcAAAAAAMMADgAAAAAAwwAOAAAAAADDAAcAAAAAAMMAA4AAAAAAwwABwAAAAADDAADgAAAAAMMAAHAAAAAAwwgAPw/w8ADDDAAfD/DwAMMAAA8P8PAAwwAAAAAAAADDAAAAAAAAAMMAAAAAAAAAwwAAAAAAAADDAAAAAAAAAMMAAAAAAAAAwwAAAAAAAADDAAAAAAAAAMMAAAAAAAAAzw////////D/D///////8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
       "id": "com.leviathan.maki.ssh",
       "kind": "wasm",
-      "label": "1.0",
+      "label": "1.1",
       "memory_kib": 64,
       "name": "SSH",
-      "path": "apps/com.leviathan.maki.ssh/1.maki",
+      "path": "apps/com.leviathan.maki.ssh/2.maki",
       "permissions": [
         {
           "name": "ask",
@@ -105,14 +105,14 @@
           "reason": "For your SSH key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "a37fb88a401dcf8cd3b32af12530d7d0e608b79933b28509aa38405c74b360eb",
+      "sha256": "279e89be54d8e8de70fddbd438c590c59ccbbffd8251d35cc9a74b29e2c087e1",
       "source": {
-        "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
+        "commit": "d33604eb58cbaf6670f49aa08ae630c94555c986",
         "path": "sdk/examples/ssh",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
-      "version": 1
+      "version": 2
     },
     {
       "backup": true,
@@ -128,7 +128,7 @@
       "name": "Tally",
       "path": "apps/com.leviathan.maki.tally/1.maki",
       "permissions": [],
-      "sha256": "29b75c7fcfe3aebf43cdde2da00894b47e0214fb5e8008d01657a79a04e76fdd",
+      "sha256": "44dfdf5828c10f045f03faf926eb347164282ad5e045f5718119f321eca67249",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/tally",
@@ -138,8 +138,8 @@
       "version": 1
     }
   ],
-  "expires": 2105926240,
+  "expires": 2105927887,
   "format": 1,
   "root": 2,
-  "version": 2026092803
+  "version": 2026092804
 }
