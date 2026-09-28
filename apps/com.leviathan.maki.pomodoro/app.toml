@@ -1,0 +1,7 @@
+# Pomodoro: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Productivity"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "a2d58764d62bff597f19a5f577cba22aa864f381"
+path = "sdk/examples/pomodoro"

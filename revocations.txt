@@ -1,0 +1,9 @@
+# What the maki store revokes, and why: the source of store/revocations.bin, which
+# scripts/publish.sh signs. A line each:
+#
+#     app ID WHY                  every version of an app
+#     up-to ID VERSION WHY        that version of it and those before
+#     developer KEY WHY           everything a developer key signed (the key in hex)
+#
+# maki won't install what's revoked, wherever it's from, and warns before opening one that's
+# installed already.
