@@ -1,0 +1,7 @@
+# Monero: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Finance"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "944de3d0b30daf2d7415540442426363edd4bcf7"
+path = "sdk/examples/monero"
