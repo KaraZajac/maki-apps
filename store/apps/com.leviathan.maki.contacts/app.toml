@@ -1,0 +1,7 @@
+# Contacts: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Social"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "f080fd51f4093508097cedaab0dee7e2f2ac0a13"
+path = "sdk/examples/contacts"
