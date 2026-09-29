@@ -27,7 +27,7 @@
           "reason": "For your age key: maki's, from your recovery phrase, the same on a restored maki."
         }
       ],
-      "sha256": "4f2c6e3eabe14671914cdaaa499a58be2b08fbc5d0dbc86d1730cf9689cc567a",
+      "sha256": "58da6f5e3b348d35818512a7506bd8b48785871585b9b887066673a548389d31",
       "source": {
         "commit": "2636d6e5d2cdb15b43b45b38e406f84db51ad882",
         "path": "sdk/examples/age",
@@ -59,7 +59,7 @@
           "reason": "To sign the transactions you approve on maki's screen, and nothing else."
         }
       ],
-      "sha256": "05783cc629ff370ef4a86d279a62be3710738f18081c96ccddbd500193027c89",
+      "sha256": "0d9da576bc1586f7ddf62ec5ac44ab60b7c096498fb144229b7e384675af7ae8",
       "source": {
         "commit": "cd1adc952fb0fde9c0aef52f0b9c6581d6bf97d7",
         "path": "sdk/examples/bitcoin",
@@ -82,7 +82,7 @@
       "name": "Dice",
       "path": "apps/com.leviathan.maki.dice/1.maki",
       "permissions": [],
-      "sha256": "7cdac7c97c9bad8865014c4fb8fc20a2b8a8c9d436220a1a0313a70b905a1e1e",
+      "sha256": "d6802356a1e4c736d428ab26ed8e2369d94eed97b55f771fa0f5d447744a3c08",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/dice",
@@ -114,7 +114,7 @@
           "reason": "To sign the transactions and messages you approve on maki's screen, and nothing else."
         }
       ],
-      "sha256": "29905bb25298275986e3461c487158ac771f15e9a4bdd391ee9803239167f9fb",
+      "sha256": "bfeccca6e1cf09bc5b6b54853bde18b070d6edfea843062a3c169541be92eacc",
       "source": {
         "commit": "cd1adc952fb0fde9c0aef52f0b9c6581d6bf97d7",
         "path": "sdk/examples/ethereum",
@@ -125,35 +125,35 @@
     },
     {
       "backup": true,
-      "bytes": 38695,
+      "bytes": 58678,
       "category": "Finance",
-      "description": "Your Monero wallet, from maki's recovery phrase, as a Ledger makes it: addresses and subaddresses as QR codes, and the 25 words that restore it in any Monero wallet, which maki shows you itself.",
+      "description": "Your Monero wallet, from maki's recovery phrase, as a Ledger makes it: addresses as QR codes, the 25 backup words, which maki shows you itself, and sending from maki desktop or the Monero GUI: you check each payment and the fee here, and maki signs.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
       "icon": "/////////////////////////////////////////////////////////wfg//////9/AAD+/////x8AAPD/////BwAA4P////8B+B+A/////wD//wD///9/wP//B/z//x/w//8P+P//D/z//z/w//8P/v//f+D//wf/////wP//g/P//8/B///Bwf//h4P//+GA//8DB///4ID//wEH///wAP//AA/+f/AA/n8AH/5/+AD8PwAf/j/4APgfAD/8P/wA8A8AP/w//ADgBwA//D/8AMADAH/4H/5AgAECf/gf/sAAAAN/+B/+wAGAA3/4H/7AA4ADf/gf/sAHwAN/+B/+wA/gA3/4H/7AD/ADf/gf/sAf+AN/+B/+wH/8A3/4H/7A//8Df/g//MD//wN/+D/8wP//Az/4P/zA//8DP/w/+MD//wM//H/4wP//Ax/8f/DA//8DH/7/AAAAAAAA/v8AAAAAAAD//wEAAAAAAP//AQAAAACA//8DAAAAAMD//wcAAAAAwP//BwAAAADg//8PAAAAAPD//x8AAAAA+P//PwAAAAD8////AAAAAP7///8BAACA/////wMAAMD/////DwAA8P////9/AAD8//////8DgP////////////////////////////////////////////////////////8=",
       "id": "com.leviathan.maki.monero",
       "kind": "wasm",
-      "label": "1.0",
+      "label": "2.0",
       "memory_kib": 256,
       "name": "Monero",
-      "path": "apps/com.leviathan.maki.monero/1.maki",
+      "path": "apps/com.leviathan.maki.monero/2.maki",
       "permissions": [
         {
           "name": "link",
-          "reason": "So maki desktop can ask for an address, which maki shows you to compare."
+          "reason": "So maki desktop can ask for addresses, watch the wallet if you let it, and send what you say yes to."
         },
         {
           "name": "wallet",
-          "reason": "To show your addresses, and have maki show you your backup words, and nothing else."
+          "reason": "Your addresses, your backup words shown by maki, the view key when you say, and signing on a yes."
         }
       ],
-      "sha256": "51765ec49224d6ab20768bc30ee5bdc975da00853270f8da5b772d4168b7359c",
+      "sha256": "50b6c43c668b5d2b51ca00b42a5be62ba618090f4252cb3085fab9aab9b18e64",
       "source": {
-        "commit": "944de3d0b30daf2d7415540442426363edd4bcf7",
+        "commit": "f98e9eebfc6ff5ed293baa4071ad19019bea02da",
         "path": "sdk/examples/monero",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
-      "version": 1
+      "version": 2
     },
     {
       "backup": true,
@@ -182,7 +182,7 @@
           "reason": "For your Nostr key: maki's, from your recovery phrase, the same on a restored maki."
         }
       ],
-      "sha256": "567b35fe67ddc1d54a8274830e8275ee57a629b30a4739056cf50ac40d6e40af",
+      "sha256": "24a4d05be3bd221a9e358d931c3ddc4242d226d257b0dfce24af1faf3ea986dd",
       "source": {
         "commit": "d5d31351ed752977be3102f6775ae6ba96e3546a",
         "path": "sdk/examples/nostr",
@@ -210,7 +210,7 @@
           "reason": "To type the passphrase into your computer when you pick Type it, so you needn't copy it by hand."
         }
       ],
-      "sha256": "46ca468fd0096e667111740f11b0ccf30a8c00e773e1590a10efc74e2772fffc",
+      "sha256": "7f929dfe394ebbbc66f8f7dcc9e7a0a3944eb9f6e857f74525f28499f71a98fa",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/passphrase",
@@ -233,7 +233,7 @@
       "name": "Pomodoro",
       "path": "apps/com.leviathan.maki.pomodoro/2.maki",
       "permissions": [],
-      "sha256": "2d7cd0c978dd9bf7b3fcd6fc0487944b67d3c5d9005700ade0ad2cbd9acb7dfe",
+      "sha256": "faa4b19c29870a375dc60420908d158800c25cf45777df7c097a5eaa4a677478",
       "source": {
         "commit": "5d0b2c0c41e9914511fce0a41b613583425b075f",
         "path": "sdk/examples/pomodoro",
@@ -265,7 +265,7 @@
           "reason": "For the spirit level."
         }
       ],
-      "sha256": "e2669e798e76f6c92d55d201edd7212b320a18936528c87bf579aea263043a51",
+      "sha256": "0f4086207f45f414cb66e583e96fbf2d3e9538bb22cf7c69144b30ed77e44a5b",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/sensors",
@@ -288,7 +288,7 @@
       "name": "Snake",
       "path": "apps/com.leviathan.maki.snake/1.maki",
       "permissions": [],
-      "sha256": "aefe8bd1ddff17866eb9ee4a88f9d0e83ea8e321f2989954bd6f9df238e203af",
+      "sha256": "3312de03e41f5785c2c132b32c530d548cf01896289472155c392bdea45f4180",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/snake",
@@ -324,7 +324,7 @@
           "reason": "For your SSH key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "a52c1a15c4953d2f09321893eaf568855ac5d5a05b51366ced4e76dfeb74ed17",
+      "sha256": "6b82fb0527cfcba49c8f4d63be39ea64bc3e25c75f0e52625076434c3dc39aa6",
       "source": {
         "commit": "d33604eb58cbaf6670f49aa08ae630c94555c986",
         "path": "sdk/examples/ssh",
@@ -352,7 +352,7 @@
           "reason": "So software on your computer can set the status (when a call starts, say) or ask what it is."
         }
       ],
-      "sha256": "e79a8931e7fb76e85eea369f7025f1a85b0ce4bb67d73d5fb12e4cfe05ccce7f",
+      "sha256": "31018968fa8824e351f875c58ca1a8b92a006543368ccb8f7f1b9734a13e6c5d",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/status",
@@ -375,7 +375,7 @@
       "name": "Tally",
       "path": "apps/com.leviathan.maki.tally/1.maki",
       "permissions": [],
-      "sha256": "7632d33d2d1770f7ccd7d0d275f3b51c91135051ed5eb9a861ad374394819cea",
+      "sha256": "cb654aa0557d1641f0f648e4366a0fcce952bdede32c0a4ce236a6b068c89a67",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/tally",
@@ -407,7 +407,7 @@
           "reason": "To read a network's QR code, from a router's sticker or a phone's share screen."
         }
       ],
-      "sha256": "02ba9b788cf08ebff615c777d16acbd8976a48cfb801f9e0894c2c4755a0075a",
+      "sha256": "30d657e0431a898608fe543c3ec29622e7b83a1f1100d91781770de3b85cd134",
       "source": {
         "commit": "2636d6e5d2cdb15b43b45b38e406f84db51ad882",
         "path": "sdk/examples/wifi",
@@ -417,8 +417,8 @@
       "version": 1
     }
   ],
-  "expires": 2105994955,
+  "expires": 2106048996,
   "format": 1,
   "root": 2,
-  "version": 2026092822
+  "version": 2026092913
 }
