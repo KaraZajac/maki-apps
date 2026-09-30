@@ -78,5 +78,10 @@ scripts/check.sh                              # every app rebuilt from its sourc
 scripts/publish.sh ~/store-keys/catalogue2.key 3650
 ```
 
-Not yet: CI that runs `scripts/check.sh` on each pull request, which needs the SDK's
-repository public (or a token for it).
+## Licenses
+
+The store's scripts, its index and this README are licensed under the MIT License (`LICENSE`).
+Each app is its developer's, under the license its source says; the apps here so far are maki's
+SDK examples, MIT like the SDK (maki-firmware's `sdk/`). The code of others they're built with
+is in `store/THIRD-PARTY-NOTICES.md`, with each one's license and its authors' notices:
+`scripts/publish.sh` copies it from the SDK the store pins.

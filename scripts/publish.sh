@@ -42,3 +42,9 @@ fi
 index=0
 [ -f "$STORE/index.json" ] && index=$(sed -n 's/^  "version": \([0-9]*\),*$/\1/p' "$STORE/index.json")
 "$MAKI" store index "$STORE" --catalogue "$KEY" --version "$(next "$index")" --expires-days "$DAYS"
+
+# the notices of the code of others the apps are built with: the SDK's, at the commit the store
+# pins (tools/maki-notices.py in maki-firmware makes them), from the checkout scripts/sdk.sh made
+set -- $(grep -v '^#' "$HERE/scripts/sdk.txt")
+notices=$HERE/.cache/$(echo "$1" | sed 's|^https://||; s|[^A-Za-z0-9._-]|-|g')/sdk/THIRD-PARTY-NOTICES.md
+if [ -f "$notices" ]; then cp "$notices" "$STORE/THIRD-PARTY-NOTICES.md"; else echo "the pinned SDK has no THIRD-PARTY-NOTICES.md: the store's is unchanged"; fi
