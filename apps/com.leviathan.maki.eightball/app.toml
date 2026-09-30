@@ -1,0 +1,7 @@
+# Magic 8-Ball: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Games"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "a998b9a9ee1f96f85b14119b11ce60ce6fc54d89"
+path = "sdk/examples/eightball"

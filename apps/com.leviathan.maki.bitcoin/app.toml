@@ -3,5 +3,5 @@ category = "Finance"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "f080fd51f4093508097cedaab0dee7e2f2ac0a13"
+commit = "a998b9a9ee1f96f85b14119b11ce60ce6fc54d89"
 path = "sdk/examples/bitcoin"
