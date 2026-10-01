@@ -3,5 +3,5 @@ category = "Tools"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "0a064aed2ed1663e294d36b7d2415823d5057e60"
+commit = "aac3d4adca6be705900429ef5e65d381171732f8"
 path = "sdk/examples/instruments"
