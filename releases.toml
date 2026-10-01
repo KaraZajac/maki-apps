@@ -27,14 +27,14 @@ bytes = 7417856
 sha256 = "8d80fa3386487fce21f3b5f9281666c4f5878aacaec4189fba013adc3259a2f5"
 
 [desktop]
-name = "0.1.3"
-commit = "d45c4ddbff48f030e5cfe035086298807baf02a7"
+name = "0.1.4"
+commit = "53920d001c3f4028cf2286ddc398151866c2551e"
 date = "2026-10-01"
-notes = "https://github.com/KaraZajac/maki-desktop/releases/tag/v0.1.3"
+notes = "https://github.com/KaraZajac/maki-desktop/releases/tag/v0.1.4"
 
 [[desktop.files]]
-name = "maki-desktop-0.1.3-x86_64.AppImage"
+name = "maki-desktop-0.1.4-x86_64.AppImage"
 platform = "linux-x86_64"
-url = "https://github.com/KaraZajac/maki-desktop/releases/download/v0.1.3/maki-desktop-0.1.3-x86_64.AppImage"
-bytes = 126477009
-sha256 = "05190fc6db4e2cb3b78987fce0f8556940813d5b6829ac0d900c859cc04a61be"
+url = "https://github.com/KaraZajac/maki-desktop/releases/download/v0.1.4/maki-desktop-0.1.4-x86_64.AppImage"
+bytes = 126481151
+sha256 = "de14715bf73e5fcce3b827c9bea74d7e164d0989455a978093eef95ab7fdb417"
