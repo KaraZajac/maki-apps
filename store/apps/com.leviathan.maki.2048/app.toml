@@ -1,0 +1,7 @@
+# 2048: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Games"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "8acb4b03d1544fd52c17ced0586426f1129fcb50"
+path = "sdk/examples/twenty48"
