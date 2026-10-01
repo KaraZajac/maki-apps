@@ -1,0 +1,7 @@
+# Tamper Log: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Security"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "147ed187a47adf8f9d2dfec9193500634ef292b1"
+path = "sdk/examples/tamper"

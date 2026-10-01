@@ -1,0 +1,7 @@
+# Life: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Games"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "c82b35d89b6ea5f5bc939eaa44aeec46a6d01d56"
+path = "sdk/examples/life"

@@ -3,5 +3,5 @@ category = "Games"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "4ceb61845662c57346107a7ab201a0ae3e66e141"
+commit = "4beea85d116c5883cf45d781aae3b6d6d0b0f711"
 path = "sdk/examples/snake"

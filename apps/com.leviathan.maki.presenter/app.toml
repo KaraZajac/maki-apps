@@ -1,0 +1,7 @@
+# Presenter: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Productivity"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "a4d09028ebf6ac482d90ef548f4e605c9b157628"
+path = "sdk/examples/presenter"

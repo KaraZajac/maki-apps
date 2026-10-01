@@ -1,0 +1,7 @@
+# Chess Clock: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Games"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "4a646ce259fb1734337b5eaec760b29b3dc6a0fe"
+path = "sdk/examples/chessclock"

@@ -1,0 +1,7 @@
+# Initiative: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Games"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "535f9c2fc76c4aa2094a4906f72295cf924aa05a"
+path = "sdk/examples/initiative"

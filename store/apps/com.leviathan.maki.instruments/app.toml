@@ -1,0 +1,7 @@
+# Instruments: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Tools"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "0a064aed2ed1663e294d36b7d2415823d5057e60"
+path = "sdk/examples/instruments"

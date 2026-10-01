@@ -3,5 +3,5 @@ category = "Games"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "a2d58764d62bff597f19a5f577cba22aa864f381"
+commit = "5b62d4ef5c9f9e142b5ef3b3ec1e3fc29ca92993"
 path = "sdk/examples/dice"
