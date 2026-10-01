@@ -3,5 +3,5 @@ category = "Social"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "d5d31351ed752977be3102f6775ae6ba96e3546a"
+commit = "aac3d4adca6be705900429ef5e65d381171732f8"
 path = "sdk/examples/nostr"

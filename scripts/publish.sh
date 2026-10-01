@@ -41,7 +41,10 @@ fi
 
 index=0
 [ -f "$STORE/index.json" ] && index=$(sed -n 's/^  "version": \([0-9]*\),*$/\1/p' "$STORE/index.json")
-"$MAKI" store index "$STORE" --catalogue "$KEY" --version "$(next "$index")" --expires-days "$DAYS"
+# and the newest firmware and maki desktop (releases.toml), so maki desktop can update them
+set -- --catalogue "$KEY" --version "$(next "$index")" --expires-days "$DAYS"
+[ -f "$HERE/releases.toml" ] && set -- "$@" --releases "$HERE/releases.toml"
+"$MAKI" store index "$STORE" "$@"
 
 # the notices of the code of others the apps are built with: the SDK's, at the commit the store
 # pins (tools/maki-notices.py in maki-firmware makes them), from the checkout scripts/sdk.sh made

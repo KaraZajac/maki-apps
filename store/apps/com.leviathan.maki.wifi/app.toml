@@ -3,5 +3,5 @@ category = "Tools"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "2636d6e5d2cdb15b43b45b38e406f84db51ad882"
+commit = "aac3d4adca6be705900429ef5e65d381171732f8"
 path = "sdk/examples/wifi"

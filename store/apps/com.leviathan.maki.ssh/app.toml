@@ -3,5 +3,5 @@ category = "Security"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "f080fd51f4093508097cedaab0dee7e2f2ac0a13"
+commit = "aac3d4adca6be705900429ef5e65d381171732f8"
 path = "sdk/examples/ssh"
