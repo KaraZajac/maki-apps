@@ -1,0 +1,7 @@
+# Minesweeper: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Games"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "e757cd61b42b4bdd8e3d68f9e587f5d194422fa7"
+path = "sdk/examples/minesweeper"
