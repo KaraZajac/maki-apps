@@ -14,7 +14,7 @@
       "name": "2048",
       "path": "apps/com.leviathan.maki.2048/1.maki",
       "permissions": [],
-      "sha256": "35593cf77080780dbb606670c012548c02a47825cbd131ad86d1b9314775543e",
+      "sha256": "e612999e58d25505fc893143e593dba8249b4f751ec8c639a042aaa00723a5d6",
       "source": {
         "commit": "8acb4b03d1544fd52c17ced0586426f1129fcb50",
         "path": "sdk/examples/twenty48",
@@ -50,7 +50,7 @@
           "reason": "For your age key: maki's, from your recovery phrase, the same on a restored maki."
         }
       ],
-      "sha256": "105f64a216f076bced09c94fe21718a5cc5d6994b7afee410168940afabef3b0",
+      "sha256": "b7d3abf19935e7cecb5e9e80538dce389060c8da5f4a032792346226e766f760",
       "source": {
         "commit": "2636d6e5d2cdb15b43b45b38e406f84db51ad882",
         "path": "sdk/examples/age",
@@ -86,7 +86,7 @@
           "reason": "To sign the transactions you approve on maki's screen, and nothing else."
         }
       ],
-      "sha256": "d42af55dd09d3c151fdcfddf42895e794efb4b8415e46753591676b553e07924",
+      "sha256": "fe8066cbc8d0bbf798c1488626c161bc00e1c4894c85ecd9ecc12e4e8194c964",
       "source": {
         "commit": "a998b9a9ee1f96f85b14119b11ce60ce6fc54d89",
         "path": "sdk/examples/bitcoin",
@@ -114,7 +114,7 @@
           "reason": "To move the paddle as you tilt maki."
         }
       ],
-      "sha256": "bceedb62dd29bbce7469fc722095b23aaff187060fba41bd5a622e2fec821b99",
+      "sha256": "88779fe076b6817be9ad2dad65324d767b76ebee3074b0b80f3a84cbc8c9de0e",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/breakout",
@@ -137,7 +137,7 @@
       "name": "Chess Clock",
       "path": "apps/com.leviathan.maki.chessclock/2.maki",
       "permissions": [],
-      "sha256": "0a2d03b0ffadfee1a96899aa33ba6c59059ea5f1fc8e326ce14962be40d3dc2e",
+      "sha256": "245e5fbf6884ebcf42250b351f67d5047eda8f64256acb8b7a7383737526052d",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/chessclock",
@@ -165,7 +165,7 @@
           "reason": "To have maki show you child seeds, phrases made from yours (BIP-85). The app never sees them."
         }
       ],
-      "sha256": "9c2aee3c4e007facda02534deeb8f789faf4a7f0aa6758f195936c494ed3a694",
+      "sha256": "33b1af2fa7bdf0eb0bfb559b2ff44469215a2ea7987c86bb5fae4dfe4ecae381",
       "source": {
         "commit": "e757cd61b42b4bdd8e3d68f9e587f5d194422fa7",
         "path": "sdk/examples/childseeds",
@@ -205,7 +205,7 @@
           "reason": "To read people's cards (a maki's, or a phone's contact QR code)."
         }
       ],
-      "sha256": "767cd4c93c6701a593bda8cfaa89d2bfc3c3d9ae86b9368ba0a47a5baf8eac83",
+      "sha256": "272932384fd2104d7148f9747701241c07f0efb666fe62e98cae41d242913ea3",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/contacts",
@@ -228,7 +228,7 @@
       "name": "Dice",
       "path": "apps/com.leviathan.maki.dice/2.maki",
       "permissions": [],
-      "sha256": "0cc8b0fd7980b763c4819d6b20475e2a766891748f727e790e395b42eb6ed271",
+      "sha256": "cbfd319dec3132444b575cef27d081ea5b347dc50b811a3f0a27dd8a348d7491",
       "source": {
         "commit": "5b62d4ef5c9f9e142b5ef3b3ec1e3fc29ca92993",
         "path": "sdk/examples/dice",
@@ -256,7 +256,7 @@
           "reason": "To know when you shake maki."
         }
       ],
-      "sha256": "6ea5a12ad1938cb5ea97f8ad26af31637b6956ef4aed79f3c3410520853d01b6",
+      "sha256": "1c32a9787de682118a627b40093bf32f9cf6f4d04f9315fd084928a35c431229",
       "source": {
         "commit": "a998b9a9ee1f96f85b14119b11ce60ce6fc54d89",
         "path": "sdk/examples/eightball",
@@ -292,7 +292,7 @@
           "reason": "To sign the transactions and messages you approve on maki's screen, and nothing else."
         }
       ],
-      "sha256": "7ed97da9f77d0a1c11d0907679608a3ed080afa84ed81b7267ad86ab831f5b40",
+      "sha256": "20644df8fc9446c9c67a92298ebb886d5aeadb3be46b4c14c08e9e861932fe47",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/ethereum",
@@ -315,7 +315,7 @@
       "name": "Initiative",
       "path": "apps/com.leviathan.maki.initiative/1.maki",
       "permissions": [],
-      "sha256": "96cd9a636bf69f48baba81d21558a059ae43bcd4015f29e2ea9cd0b0f86c260b",
+      "sha256": "77a42e2b603a7434312fb32fd5ddf61229edcebac2e9862b38f97f370d072cf5",
       "source": {
         "commit": "535f9c2fc76c4aa2094a4906f72295cf924aa05a",
         "path": "sdk/examples/initiative",
@@ -343,7 +343,7 @@
           "reason": "To read how maki is tilted and pushed: the g-meter, the horizon and the level."
         }
       ],
-      "sha256": "2d307a424861f66837ff96edba0b5533dae8f38efed76e41dc6826e68b9bc50b",
+      "sha256": "ce3cc0cb0f362c601a596069ef9f0e6a407825d2e9bab810d9a32e2a001e219c",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/instruments",
@@ -366,7 +366,7 @@
       "name": "Life",
       "path": "apps/com.leviathan.maki.life/2.maki",
       "permissions": [],
-      "sha256": "0a738beab8004b61cef418ebaa8533ce414ecb916ad28aef8f6328171589c786",
+      "sha256": "1eaedd70363b9a779f8483cfe597eddc555109b94570c053e99168850cebe8a1",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/life",
@@ -374,6 +374,38 @@
       },
       "storage_kib": 1,
       "version": 2
+    },
+    {
+      "backup": true,
+      "bytes": 39358,
+      "category": "Tools",
+      "description": "Keystrokes maki types into a computer at the press of a button: text, keys, and DuckyScript, loaded from maki desktop. For demos, pentests and your own machine, run with you holding maki, on its own screen. It can open and run programs, so run only scripts you trust and understand.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////////////////////////////////fwDgAYAHAPw/AOAAAAcA/D8A4AAABwD8PwDgAAAHAPw//OEAAIc//D/84QAAhz/8P/zhAACHP/w//OEAAIc//D/84QAAhz/8P/zhAACHP/w//OEAAIc//D8A4AAABwD8PwDgAAAHAPw/AOAAAAcA/D8A4AAABwD8////////////////////////////////fwDgAYAHAP4/AOAAAAcA/D8A4AAABwD8PwDgAAAHAPw/+OHgB4c//D/84fAPhz/8P/zh8A+HP/w//OHwD4c//D/84fAPhz/8P/zh8A+HP/w//OHwD4c//D/44eAHhz/8PwDgAAAHAPw/AOAAAAcA/D8A4AAABwD8fwDgAYAHAP7///////////////////////////////8/AOAAAAcA/D8A4AAABwD8PwDgAAAHAPw/AOAAAAcA/D/84fAPhz/8P/zh8A+HP/w//OHwD4c//D/84fAPhz/8P/zh8A+HP/w//OHwD4c//D/84fAPhz/8PwDgAAAHAPw/AOAAAAcA/D8A4AAABwD8PwDgAYAHAPz///////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.macropad",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 128,
+      "name": "Macro Pad",
+      "path": "apps/com.leviathan.maki.macropad/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "To receive the scripts you send it from maki desktop."
+        },
+        {
+          "name": "keyboard",
+          "reason": "To type your scripts into the computer: text, keys and shortcuts that can open and run programs."
+        }
+      ],
+      "sha256": "208b1a7fa1ee2ecfe71f349d1ea012442cebb88d2b68b465b66b261645a18c0d",
+      "source": {
+        "commit": "35e43eb39ccbc8878b5e1a6ce43eb7d47cfaeda1",
+        "path": "sdk/examples/macropad",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 32,
+      "version": 1
     },
     {
       "backup": true,
@@ -394,7 +426,7 @@
           "reason": "To roll the marble as you tilt maki."
         }
       ],
-      "sha256": "506eb1afdef2a1f4ce32eae814d7913d013beb0974f023dac1308673036d0cee",
+      "sha256": "f72a157dda4e02410b3210e8d7e0fcd494446083b18a09c072c574d6a70c0351",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/marble",
@@ -417,7 +449,7 @@
       "name": "Minesweeper",
       "path": "apps/com.leviathan.maki.minesweeper/1.maki",
       "permissions": [],
-      "sha256": "0a27e9bd03e2cd6467dddc86f0f78581a58dd32506a494dc62e308c22bdcdf87",
+      "sha256": "7187734080b7b7d63e66e4dc5cc6a66c17819a37f97205953c454329c0471207",
       "source": {
         "commit": "e757cd61b42b4bdd8e3d68f9e587f5d194422fa7",
         "path": "sdk/examples/minesweeper",
@@ -453,7 +485,7 @@
           "reason": "For your minisign key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "e348a044310aca8ce59c531c727227955681f0fd16812452bb711063d7ee05bc",
+      "sha256": "ab01f30e45bd60cb0eb347b2c85a42271eafca0c9a33774dc4972cd4ba88a57a",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/minisign",
@@ -485,7 +517,7 @@
           "reason": "Your addresses, your backup words shown by maki, the view key when you say, and signing on a yes."
         }
       ],
-      "sha256": "1b3cfc8da936bf0b54bbf6303d01d4cfcefe7df466e4ef4a40792b352571e37e",
+      "sha256": "16f6aab0d5812f5d2dd3718a68cf7ae13bfc79deafe1c412a361c640d72b79ad",
       "source": {
         "commit": "f98e9eebfc6ff5ed293baa4071ad19019bea02da",
         "path": "sdk/examples/monero",
@@ -513,7 +545,7 @@
           "reason": "To type what you key into the computer, once you turn typing on."
         }
       ],
-      "sha256": "650f4786b79ed2fce320417c326c51c64263a7a04431a578c98403786ee3b2be",
+      "sha256": "1362a8a13ec7164d70dc84b764a3d340c00252afdcc5459e869dadc332905600",
       "source": {
         "commit": "3a51c00f90fc7ffae47e54e57fa89508b177b901",
         "path": "sdk/examples/morse",
@@ -541,7 +573,7 @@
           "reason": "To read your name tag from a QR code you make: your name, a line under it, and a link."
         }
       ],
-      "sha256": "355e52e25a56f3de50daaecb409ae76cbdb40cb9c1361369c799a47311cd259d",
+      "sha256": "4ededd56444d10163ae0b0c1935b9986aba3c0a6c88d283d6298ecdf1c4b08ed",
       "source": {
         "commit": "e757cd61b42b4bdd8e3d68f9e587f5d194422fa7",
         "path": "sdk/examples/nametag",
@@ -577,7 +609,7 @@
           "reason": "For your Nostr key: maki's, from your recovery phrase, the same on a restored maki."
         }
       ],
-      "sha256": "5df95ae0b6ba4425859b16bce1d35b231fa55b40d3fb5ace10eccf30999d7ea5",
+      "sha256": "6ef3cc166594919c346155f4bd8e228965c009fbff62a5de45d29ee98fa3c99f",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/nostr",
@@ -617,7 +649,7 @@
           "reason": "To read a note from a QR code when you pick Scan a note."
         }
       ],
-      "sha256": "1641988118f192d76be055e0da417849fe8299141103bdd6b80ac5c4420423b2",
+      "sha256": "121fab9557e32204d597f49db816125ac4a58f35853c9c30fc84e7fa31645082",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/notes",
@@ -653,7 +685,7 @@
           "reason": "For your OpenPGP keys, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "8e217b950c7c6f7fedaa5fd2c9257c3f232245f7eb7eb842902755d1fad08b9c",
+      "sha256": "5908c72bc4e12b5f438acef73b2621699edb98243719c77577efce6e2babf180",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/openpgp",
@@ -681,7 +713,7 @@
           "reason": "To type the passphrase into your computer when you pick Type it, so you needn't copy it by hand."
         }
       ],
-      "sha256": "2f314a4bc972ccdf11055a13d8ff120588ce8d5b3380d5f69ef378819b917f93",
+      "sha256": "26b3de81602cd5f10915cee255ef7152f66e3cdccf0d8feb7748e6fe41b13f14",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/passphrase",
@@ -704,7 +736,7 @@
       "name": "Pomodoro",
       "path": "apps/com.leviathan.maki.pomodoro/4.maki",
       "permissions": [],
-      "sha256": "af2457738d991bdab2b9531dffdc0d94e2f846ae28fb1f5208bcd76ebee441d1",
+      "sha256": "ca1f3113ac23a65ea1d7adf1933fd36602f87f0c356129bf81ec45cdc1cb61f9",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/pomodoro",
@@ -732,7 +764,7 @@
           "reason": "To change your slides: Page Down, Page Up, B to blank the screen, F5 and Esc to start and end."
         }
       ],
-      "sha256": "03873075f8faae4411e39aad6e30fdf139f27ef1eb0182e5eaa0d07dfe29aa63",
+      "sha256": "4d52860275ea0b2b3e72f42c3ba360a426c71bd4400a63d6d8a851638de174c3",
       "source": {
         "commit": "a4d09028ebf6ac482d90ef548f4e605c9b157628",
         "path": "sdk/examples/presenter",
@@ -764,7 +796,7 @@
           "reason": "To read QR codes when you press the centre."
         }
       ],
-      "sha256": "bbe016c47f59114d5a5f8e85a4262e9bb98a0b8c187729b8772ab01d166348d1",
+      "sha256": "13296d010da0ff3dc7da1b9eced32ac080b6be5fabbee412111f86ca16171310",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/scanner",
@@ -796,7 +828,7 @@
           "reason": "For the spirit level."
         }
       ],
-      "sha256": "a9011a48b0ccb1286185b876549cd05f91801297e9a433cabf8f99bd4a09e597",
+      "sha256": "1a8307147ccbb29216cbe611dd3e9ba1f1e164374a7e74971bf9a35aa14b6b4b",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/sensors",
@@ -819,7 +851,7 @@
       "name": "Snake",
       "path": "apps/com.leviathan.maki.snake/2.maki",
       "permissions": [],
-      "sha256": "c3a628ff64f8c26bfc7cb528d4266cb98958712b8ac945a703d38a28b81ed634",
+      "sha256": "473e42a1504d972ce7d051a85c0064ee49e1bb100eec89184cd7f31d0baf59f1",
       "source": {
         "commit": "4beea85d116c5883cf45d781aae3b6d6d0b0f711",
         "path": "sdk/examples/snake",
@@ -851,7 +883,7 @@
           "reason": "To sign the transactions and messages you approve on maki's screen, and nothing else."
         }
       ],
-      "sha256": "753b8a7fa04e10cba9cd1ddc9eb8f859184fd80106a4918d896fed8f8be9a1ff",
+      "sha256": "41a1bfce730b490b2af82fa7c0d5bf79dc47bc6d0b84c457dc39c319a86ebd14",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/solana",
@@ -887,7 +919,7 @@
           "reason": "For your SSH key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "ce05fff79f34b36900b88da9b375feb08a3e1700c41cd58d6cd6cd16f27faade",
+      "sha256": "e588ad9c82cd3ace9eaf51c46c9feafb676c04d23126033512e8704817aee040",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/ssh",
@@ -915,7 +947,7 @@
           "reason": "So software on your computer can set the status (when a call starts, say) or ask what it is."
         }
       ],
-      "sha256": "27096ab9fa69aa9db6c612463195c925dda18c66326e810634c9119ba8ede481",
+      "sha256": "3d3074fa199c6db51c9cbea62462273c15ed2cd4109ecbb948df851fb55325d3",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/status",
@@ -951,7 +983,7 @@
           "reason": "For the key your computer's sudo checks your yes with, from your recovery phrase."
         }
       ],
-      "sha256": "0e03c1b2079fa70a59b1309aa32da5d6d9fb6e1b11e502b4a40ccbf873f71557",
+      "sha256": "e9e7279d41d66a0e5bdb33212c7fa5dd21884c8dbb8a9dc4ea082ff1675222fb",
       "source": {
         "commit": "a998b9a9ee1f96f85b14119b11ce60ce6fc54d89",
         "path": "sdk/examples/sudo",
@@ -974,7 +1006,7 @@
       "name": "Tally",
       "path": "apps/com.leviathan.maki.tally/2.maki",
       "permissions": [],
-      "sha256": "40022077ae572bbb74fb5789719aa99f3bfa208f6e3dad899809d96259a16e81",
+      "sha256": "aeb7673ce6e7faddb66c72c3b32eacd5a6eeffb0e3419c354947dfe261331cfb",
       "source": {
         "commit": "e27f2e2a13ab42fa2cee20327c21f37c80728346",
         "path": "sdk/examples/tally",
@@ -1002,7 +1034,7 @@
           "reason": "To notice maki being moved while it's armed."
         }
       ],
-      "sha256": "cc00dcbe7c983f55e9dbb87042ed0fef8015003ff6f615ae64052a2ea4c65cfb",
+      "sha256": "96559d8570f8be2d617b761984d3153b03dd74c74ec984c83ed3d74514ec6408",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/tamper",
@@ -1034,7 +1066,7 @@
           "reason": "To read a network's QR code, from a router's sticker or a phone's share screen."
         }
       ],
-      "sha256": "5adf649914c86204bb5b011817ef24acf79b5919b9e2e110602d376626e59570",
+      "sha256": "b0d051e218d7b5bc3a31837dfd4fa16b66cd036ccaba0718bea078f169f4419a",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/wifi",
@@ -1044,51 +1076,51 @@
       "version": 2
     }
   ],
-  "expires": 2106253765,
+  "expires": 2106264345,
   "format": 1,
   "releases": {
     "desktop": {
-      "commit": "53920d001c3f4028cf2286ddc398151866c2551e",
+      "commit": "8ea543040d4d612ef85728ad09e80161a1c6ed22",
       "date": "2026-10-01",
       "files": [
         {
-          "bytes": 126481151,
-          "name": "maki-desktop-0.1.4-x86_64.AppImage",
+          "bytes": 126481198,
+          "name": "maki-desktop-0.1.5-x86_64.AppImage",
           "platform": "linux-x86_64",
-          "sha256": "de14715bf73e5fcce3b827c9bea74d7e164d0989455a978093eef95ab7fdb417",
-          "url": "https://github.com/KaraZajac/maki-desktop/releases/download/v0.1.4/maki-desktop-0.1.4-x86_64.AppImage"
+          "sha256": "e8d3785587a8f78ca70480e28ef392306cd1067c14a7d25c148b29b0578e0c74",
+          "url": "https://github.com/KaraZajac/maki-desktop/releases/download/v0.1.5/maki-desktop-0.1.5-x86_64.AppImage"
         }
       ],
-      "name": "0.1.4",
-      "notes": "https://github.com/KaraZajac/maki-desktop/releases/tag/v0.1.4"
+      "name": "0.1.5",
+      "notes": "https://github.com/KaraZajac/maki-desktop/releases/tag/v0.1.5"
     },
     "firmware": {
-      "commit": "e757cd61b42b4bdd8e3d68f9e587f5d194422fa7",
+      "commit": "35e43eb39ccbc8878b5e1a6ce43eb7d47cfaeda1",
       "date": "2026-10-01",
       "files": [
         {
           "bytes": 354816,
           "name": "loader.uf2",
-          "sha256": "65d6008f05d683522d2ac0bb07699cbc9ce10d46af00987ddc11e93dd4f1c4fc",
-          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-01.5/loader.uf2"
+          "sha256": "3e8d468e1115a2be0fca74fe9988d675c35bfea562dd9ed6b2ed46abe65e818c",
+          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-01.6/loader.uf2"
         },
         {
           "bytes": 6186496,
           "name": "xous.uf2",
-          "sha256": "1cfeeb3e5cd540aa8f777d600af1ab0b03bc1585d56b5806ca9f44ab1503dbff",
-          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-01.5/xous.uf2"
+          "sha256": "9d3089091f962f937957e1386dc3a9ab9cfffa372c8c148bf1a8ab16386d1cac",
+          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-01.6/xous.uf2"
         },
         {
           "bytes": 7417856,
           "name": "swap.uf2",
-          "sha256": "8d80fa3386487fce21f3b5f9281666c4f5878aacaec4189fba013adc3259a2f5",
-          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-01.5/swap.uf2"
+          "sha256": "52fe9a04e87022891774b6b5aa9ad399388dca8c1979c78c2fa075efb6c1546e",
+          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-01.6/swap.uf2"
         }
       ],
-      "name": "preview-2026-10-01.5",
-      "notes": "https://github.com/KaraZajac/maki-firmware/releases/tag/preview-2026-10-01.5"
+      "name": "preview-2026-10-01.6",
+      "notes": "https://github.com/KaraZajac/maki-firmware/releases/tag/preview-2026-10-01.6"
     }
   },
   "root": 2,
-  "version": 2026100123
+  "version": 2026100201
 }

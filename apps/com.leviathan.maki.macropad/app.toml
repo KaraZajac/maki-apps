@@ -1,0 +1,7 @@
+# Macro Pad: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Tools"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "35e43eb39ccbc8878b5e1a6ce43eb7d47cfaeda1"
+path = "sdk/examples/macropad"
