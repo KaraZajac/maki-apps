@@ -3,5 +3,5 @@ category = "Finance"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "f080fd51f4093508097cedaab0dee7e2f2ac0a13"
+commit = "043375b1a9aca07cc88240f84253cd0c44a9c8a7"
 path = "sdk/examples/ethereum"
