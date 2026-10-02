@@ -1,0 +1,7 @@
+# Flashcards: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Productivity"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "1ebc489c190015e5951d2937b6f4f9ba972324d5"
+path = "sdk/examples/flashcards"
