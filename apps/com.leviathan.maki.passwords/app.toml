@@ -1,0 +1,7 @@
+# Passwords: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Security"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "ddafc8158170ec4baf8d9cfb39504104280aec47"
+path = "sdk/examples/passwords"

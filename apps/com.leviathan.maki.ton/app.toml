@@ -1,0 +1,7 @@
+# TON: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Finance"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "bbc7ca37edee0796dd98feb51c0e0daef73441c6"
+path = "sdk/examples/ton"
