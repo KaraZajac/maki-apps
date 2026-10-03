@@ -1,0 +1,7 @@
+# DigiByte: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Finance"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "00aa29571df832f62806b150fce3435e0148b886"
+path = "sdk/examples/digibyte"

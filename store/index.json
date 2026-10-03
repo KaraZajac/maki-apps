@@ -14,7 +14,7 @@
       "name": "2048",
       "path": "apps/com.leviathan.maki.2048/1.maki",
       "permissions": [],
-      "sha256": "e612999e58d25505fc893143e593dba8249b4f751ec8c639a042aaa00723a5d6",
+      "sha256": "8f4b8776ba7fa017fe37022b654d60cfa99c6e192ffbcdafad95632e3bbd0a83",
       "source": {
         "commit": "8acb4b03d1544fd52c17ced0586426f1129fcb50",
         "path": "sdk/examples/twenty48",
@@ -50,13 +50,45 @@
           "reason": "For your age key: maki's, from your recovery phrase, the same on a restored maki."
         }
       ],
-      "sha256": "b7d3abf19935e7cecb5e9e80538dce389060c8da5f4a032792346226e766f760",
+      "sha256": "b820b4f7d0b3f94ba16a86dd5f0c7dcd4d26b23a628c257fb5a1b3131774fd31",
       "source": {
         "commit": "2636d6e5d2cdb15b43b45b38e406f84db51ad882",
         "path": "sdk/examples/age",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 84979,
+      "category": "Finance",
+      "description": "Your Aptos account, from maki's recovery phrase, as Petra and Ledger make it: for maki desktop's wallet. Every APT, coin and asset payment, every stake and the most the fee can be are shown on maki before it signs, and nothing that would hand the account to another is signed at all.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "//////////////////////////////////////////////////////////////////////////////8BAP//////PwAA+P////8PAADg/////wcAAMD/////AQAAAP////8AAAAA/v//fwAAAAD8//8/AAAAAPj//x8AAAAA8P//DwAAAADg////////////////////////////////////////////////////////AAD8fwAA/v8AAPx/AAD+/wAA/H8AAP5/AAD8fwAA/H8AAPx/AAD8/////////////////////////////////////////////////////38AAAAAAAD8fwAAAAAAAPx/AAAAAAAA/H8AAAAAAAD8fwAAAAAAAPz//////////////////////////////////////////////////////wAAAAAAAP7/AQAAAAAA//8BAAAAAAD//wMAAAAAgP//BwAAAADA/////////////////////////////////////////////////////////wAAAAD+////AQAAAP////8HAADA/////w8AAOD/////PwAA+P//////AQD///////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.aptos",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "Aptos",
+      "path": "apps/com.leviathan.maki.aptos/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "3fc5199a0b4eda5131b05094c1990a4e1cd0c486b88e4ea2ab9bd5f3d218e301",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/aptos",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
       "version": 1
     },
     {
@@ -86,7 +118,7 @@
           "reason": "To sign the transactions you approve on maki's screen, and nothing else."
         }
       ],
-      "sha256": "fe8066cbc8d0bbf798c1488626c161bc00e1c4894c85ecd9ecc12e4e8194c964",
+      "sha256": "9f1f559dff2876bdeea1c89d52313de07b720642a0bc278943e754304e3ba0b2",
       "source": {
         "commit": "a998b9a9ee1f96f85b14119b11ce60ce6fc54d89",
         "path": "sdk/examples/bitcoin",
@@ -94,6 +126,38 @@
       },
       "storage_kib": 32,
       "version": 3
+    },
+    {
+      "backup": true,
+      "bytes": 95614,
+      "category": "Finance",
+      "description": "Your Bitcoin Cash wallet, from maki's recovery phrase: the account Electron Cash, Ledger and the other BIP44 wallets make from it, for maki desktop's wallet. Every payment, the change and the fee shown on maki before it signs.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////AYD//////z8AAPz/////DwAA8P////8DAADA/////wDwDwD///9/AP//AP7//x/A//8D+P//D/D//w/w//8HHP//P+D//wMOH/h/wP//AQ8CwP+A//+BHwCA/4H//8AfAAD/A/9/4AMAAP4H/n/wAQAA/A/+P/gBwAP8H/w/+AH4D/gf/B/8Af4f+D/4H/wD/x/4P/gP/gP+H/h/8A/+B/4f+H/wD/8H/h/4//AH/wf8H/j/4Af/D/wP+P/gB/8P/APg/+CH/w/4AMD/4Yf/HxgAAP/hh/8fAAAA/uGH/x8AAAD+4Yf/PwDAAfzhh/8/APAH/OGH/38A/g/44Yf/f8D/H/jhB/9/wP8f+OAH///A/x/44Af//8D/H/jgD///gP8f+PAP/v+B/x948A/+/wH/D3jwH/z/Af8HPPgf/P8D/wA8+D/4/wM+AB78P/j/BwYAH/x/8P8HAIAP/n/g/wcAwAf+/8D/DwDwA///gf8PAP6B//8B/w+A/4D//wP+H8B/wP//B/w/gj/g//8P8P+HD/D//x/A/8cD+P//fwD//wD+////APAPAP////8DAADA/////w8AAPD/////PwAA/P//////AYD///////////////////////////////////8=",
+      "id": "com.leviathan.maki.bitcoincash",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 1024,
+      "name": "Bitcoin Cash",
+      "path": "apps/com.leviathan.maki.bitcoincash/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, addresses and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "506437c552937fe9354404e2831e6ad054f66b5d6c9821b5b88b953e0e084662",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/bitcoincash",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
+      "version": 1
     },
     {
       "backup": true,
@@ -114,13 +178,45 @@
           "reason": "To move the paddle as you tilt maki."
         }
       ],
-      "sha256": "88779fe076b6817be9ad2dad65324d767b76ebee3074b0b80f3a84cbc8c9de0e",
+      "sha256": "5c301db16829daaa637d29c37f53156a0f5544bb2adffc4f9ff7c8cd05f39916",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/breakout",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 98040,
+      "category": "Finance",
+      "description": "Your Cardano account, from maki's recovery phrase, as Eternl, Lace, Yoroi and Ledger make it: for maki desktop's wallet. Every payment and token, the change, staking, vote delegation, rewards and the fee are shown on maki before it signs; nothing for scripts, pools or governance is signed at all.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "//////////////////////////////////////////////////////////////////////////////9//P///////z/4////////P/j//////88/+Of/////h3/8w/////+H///D/////4f//8P/////z///5/////////////////9//P///////z/4////////H/D/////x/8f8P/H//+D/x/w/4P//4P/P/j/g///x/9//P/H////h///w/////8D//+B/////wP//4H/////A///gf////8D//+B/////4cf8MP//////w/g//////j/D+D/P/5/8P8P4P8f/H/w/w/g/x/8f/D/D+D/H/z/+P8P4P8//v///w/g//////+HH/DD/////wP//4H/////A///gf////8D//+B/////wP//4H/////h///w////8f/f/z/x///g/8/+P+D//+D/x/w/4P//8f/H/D/x/////8f8P///////z/4////////f/z/////////////////z///5/////+H///D/////4f//8P/////h3/8w//////PP/jn//////8/+P///////z/4////////f/z///////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.cardano",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 1024,
+      "name": "Cardano",
+      "path": "apps/com.leviathan.maki.cardano/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, addresses and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "34ef0b016935fb86fd996646547b6828591cecb72e8ad63efd366aea86223aa3",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/cardano",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
       "version": 1
     },
     {
@@ -137,7 +233,7 @@
       "name": "Chess Clock",
       "path": "apps/com.leviathan.maki.chessclock/2.maki",
       "permissions": [],
-      "sha256": "245e5fbf6884ebcf42250b351f67d5047eda8f64256acb8b7a7383737526052d",
+      "sha256": "6b360d0c8075d4602a2ec1913be0dd9acc818a35dc16acabc0f310b0ed810f51",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/chessclock",
@@ -165,10 +261,46 @@
           "reason": "To have maki show you child seeds, phrases made from yours (BIP-85). The app never sees them."
         }
       ],
-      "sha256": "33b1af2fa7bdf0eb0bfb559b2ff44469215a2ea7987c86bb5fae4dfe4ecae381",
+      "sha256": "c9d561f061f77bc2b21e12627ab4690715a97f070ef0f8d623c0c066d4da76a9",
       "source": {
         "commit": "e757cd61b42b4bdd8e3d68f9e587f5d194422fa7",
         "path": "sdk/examples/childseeds",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": false,
+      "bytes": 20309,
+      "category": "Security",
+      "description": "Scripts and programs on your computer ask here before they go ahead: a deploy, terraform apply, a force push. maki shows the question whole, with who asked where, and signs your yes with a key from your recovery phrase, so a script that keeps the key knows it was you, on maki.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////////////////////////////////////////////AwAAAADA//8DAAAAAMD//wMAAAAAwP//AwAAAADA//8DAAAAAMD//8P/////w///w//////D///D/////8P//8P/////w///w//////D///D/////8P//8P/////w///w//////D///D/////8P//8P////hw///w////8DD///D//9/wMP//8P//z/Aw///w///P+DD///D//8f8MP//8P//w/ww///w///B/jD///D//8H/MP//8P//wP+w///gwf/Af7B//+DB/4A/8H//4MHfID/wf//gwd4wP/B//8HBzjg/+D//wcPEOD/4P//Dx4A8H/w//8PPgD4f/D//w98APw/8P//H/gA/B/4//8/8AH+D/z//z/gA/8H/P//f8CH/wP+////gP//Af////8B//+A/////wP+f8D/////B/w/4P////8P8A/w/////x/gB/j/////P4AB/P////9/AAD+//////8AAP///////wGA////////A8D///////8P8P///////x/4////////P/z///////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.confirm",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 64,
+      "name": "Confirm",
+      "path": "apps/com.leviathan.maki.confirm/1.maki",
+      "permissions": [
+        {
+          "name": "ask",
+          "reason": "To show you what each script asks, and who asked where, and ask you."
+        },
+        {
+          "name": "link",
+          "reason": "To hear from maki desktop's maki-confirm, which asks it for scripts and programs."
+        },
+        {
+          "name": "keys",
+          "reason": "For the key your yes is signed with, from your recovery phrase, which scripts check it with."
+        }
+      ],
+      "sha256": "7931d788efffa8f8f0b78f941a5b45e79bc244543dd3a9ebb764f71e154c7db6",
+      "source": {
+        "commit": "0799ea3ee55068477d8b7f390db8935fe2c28ea2",
+        "path": "sdk/examples/confirm",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
@@ -205,13 +337,77 @@
           "reason": "To read people's cards (a maki's, or a phone's contact QR code)."
         }
       ],
-      "sha256": "272932384fd2104d7148f9747701241c07f0efb666fe62e98cae41d242913ea3",
+      "sha256": "771efda2d8c3b69ef4b0974c0c42e720d911ebd9bd611e694d3f8cc92c42b89a",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/contacts",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 64,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 135123,
+      "category": "Finance",
+      "description": "Your Cosmos account, from maki's recovery phrase, as Keplr and Ledger make it: on the Cosmos Hub and the chains that share its keys, for maki desktop's wallet. Every payment, IBC transfer, stake, vote and fee is shown on maki before it signs; a grant letting another act for you isn't signed.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "/////////////////////////////////////////////////////////////////////////////////////////////////wf4////wP//A/D//x+A//8BwP//BwD//wEA//8BAP//AQD8fwAA//8BAPg/AAD//wEA4A8AAP//AX7AB/wA//8D/4ED/wH//wP/B8D/Af//A/8P4P+B//8H/z/4/8H//wf/H/D/wf//D/8P4P/h//8P/ofD/+D//x/+w4f/8P//H/zhD3/w//8//PAffvj//394ODg8/P//fzAccBj8////EA7gEP7///8BB8AB/////4MHwIP/////gwfAg/////+DB8CD/////wEHwAH/////EA7gEP7//38wHHAY/P//f3g4ODz8//8//PAffvj//x/84Q9/8P//H/7Dh//w//8P/ofD/+D//w//D+D/4f//B/8f8P/B//8H/z/4/8H//wP/D+D/gf//A/8HwP+B//8D/4ED/4H//wF+wAf8AP//AQDgDwAA//8BAPg/AAD//wEA/H8AAP//AQD//wEA//8BwP//BwD//wPw//8fgP//B/7////A//////////////////////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.cosmos",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "Cosmos",
+      "path": "apps/com.leviathan.maki.cosmos/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, show you its address, and ask for signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "62789bd6a9a88fc4a1e42d279cf2cb7827f99ceedebcfd62c5fdf61f565cadab",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/cosmos",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 93229,
+      "category": "Finance",
+      "description": "Your Dash wallet, from maki's recovery phrase: the account Dash Core, Ledger and Trezor make from it, for maki desktop's wallet. Every payment, the change and the fee shown on maki before it signs; masternode and Dash Platform transactions refused.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w8AAP//////AwAA+P////8DAADw/////wEAAMD/////AQAAgP////8BAACA/////wMAAAD///////8fAP///////38A/v///////wD+////////Af7///////8D/P///////wP8////////A/z///////8D/P8HAMD//wP8/wEAgP//A/7/AACA//8D/v8AAID//wP+/wAAgP//A/7/AADA//8B//8BAPD//wH/////////gP///////3+A////////f8D///////8/wP///////x/g////////B/D///////8B+P//////fwD8////BwAAAP7///8DAAAA/////wEAAID/////AQAA4P////8BAAD4/////wEAAP7/////AwDA//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.dash",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 1024,
+      "name": "Dash",
+      "path": "apps/com.leviathan.maki.dash/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, addresses and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "be39d811e9c1f91726a5368a0b1e9f8a91936bb870a0d5b90a57ea6fe95def3c",
+      "source": {
+        "commit": "00aa29571df832f62806b150fce3435e0148b886",
+        "path": "sdk/examples/dash",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
       "version": 1
     },
     {
@@ -228,7 +424,7 @@
       "name": "Dice",
       "path": "apps/com.leviathan.maki.dice/2.maki",
       "permissions": [],
-      "sha256": "cbfd319dec3132444b575cef27d081ea5b347dc50b811a3f0a27dd8a348d7491",
+      "sha256": "2e11130e32f4964be1afdb7ff084256ce6d32e7fc2de41a0e96cfaa76addda4c",
       "source": {
         "commit": "5b62d4ef5c9f9e142b5ef3b3ec1e3fc29ca92993",
         "path": "sdk/examples/dice",
@@ -236,6 +432,70 @@
       },
       "storage_kib": 1,
       "version": 2
+    },
+    {
+      "backup": true,
+      "bytes": 99849,
+      "category": "Finance",
+      "description": "Your DigiByte wallet, from maki's recovery phrase: the native SegWit, taproot and legacy accounts Ledger and the other BIP44 wallets make from it, for maki desktop's wallet. Every payment, the change and the fee shown on maki before it signs.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////AYD//////z8AAPz/////DwAA8P////8DAADA/////wDwDwD///9/AP//AP7//x/A//8D+P//D/D//w/w//8H/P//P+D//wP+//9/wP//Af////+A//+B/wf8/4H//8D/AYD/A/9/4P8BAPwH/n/w/wAA+A/+P/j/AADgH/w/+P8AAMAf/B/8/wAAgD/4H/z/gD8AP/gP/v+A/wB/8A/+/4D/AX7wD///gP8D/vAH/wGA/wf84Af/AAD/D/zgB/8AAP8P/OCH/wAA/w/44Yf/AYD/H/jhh///gP8f+OGH//+A/x/44Yf//4D/H/jhh///gP8f+OGH/wGA/x/44Yf/AAD/D/jhB/8AAP8P/OAH/wAA/w/84Af/AYD/B/zgD///gP8D/vAP/v+A/wF+8A/+/4D/AH/wH/z/gD8AP/gf/P8AAIA/+D/4/wAAwB/8P/j/AADgH/x/8P8AAPgP/n/g/wEA/Af+/8D/AYD/A///gf8H/P+B//8B/////4D//wP+//9/wP//B/z//z/g//8P8P//D/D//x/A//8D+P//fwD//wD+////APAPAP////8DAADA/////w8AAPD/////PwAA/P//////AYD///////////////////////////////////8=",
+      "id": "com.leviathan.maki.digibyte",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 1024,
+      "name": "DigiByte",
+      "path": "apps/com.leviathan.maki.digibyte/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, addresses and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "607a969e293dca513f2f72186ff879586b2b506265fdceaf0555f65366d94842",
+      "source": {
+        "commit": "00aa29571df832f62806b150fce3435e0148b886",
+        "path": "sdk/examples/digibyte",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 90075,
+      "category": "Finance",
+      "description": "Your Dogecoin wallet, from maki's recovery phrase: the account Trezor, Ledger and the other BIP44 wallets make from it, for maki desktop's wallet. Every payment, the change and the fee shown on maki before it signs.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////AYD//////z8AAPz/////DwAA8P////8DAADA/////wDwDwD///9/AP//AP7//x/A//8D+P//D/D//w/w//8H/P//P+D//wP+//9/wP//Af////+A//+B/wD//4H//8A/AOD/A/9/4D8AAP8H/n/wHwAA/g/+P/gfAAD4H/w/+B8AAPAf/B/8HwAA4D/4H/wf8A/AP/gP/h/wP8B/8A/+H/B/gH/wD/8f8P+A//AH/x/w/wH/4Af/H/D/A//gB/8f8P8D/+CH/x/w/wP+4Yf/AQD+B/7hh38AAPgH/uGHfwAA+Af+4Yd/AAD4B/7hh38AAPgH/uGH/wEA/gf+4Yf/H/D/A/7hB/8f8P8D/+AH/x/w/wP/4Af/H/D/Af/gD/8f8P+A//AP/h/wf4B/8A/+H/A/wH/wH/wf8A/AP/gf/B8AAOA/+D/4HwAA8B/8P/gfAAD4H/x/8B8AAP4P/n/gPwAA/wf+/8A/AOD/A///gf8A//+B//8B/////4D//wP+//9/wP//B/z//z/g//8P8P//D/D//x/A//8D+P//fwD//wD+////APAPAP////8DAADA/////w8AAPD/////PwAA/P//////AYD///////////////////////////////////8=",
+      "id": "com.leviathan.maki.dogecoin",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 1024,
+      "name": "Dogecoin",
+      "path": "apps/com.leviathan.maki.dogecoin/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, addresses and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "13db15a4ff0575aca6bf477f0e8ba69dadfeb386e613241a86e924bb3acf2a0d",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/dogecoin",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
+      "version": 1
     },
     {
       "backup": false,
@@ -256,7 +516,7 @@
           "reason": "To know when you shake maki."
         }
       ],
-      "sha256": "1c32a9787de682118a627b40093bf32f9cf6f4d04f9315fd084928a35c431229",
+      "sha256": "f4448613551b13a2d8a6fd8e8c29f4bc6b36a49a0d985dd653d60abc4c33c664",
       "source": {
         "commit": "a998b9a9ee1f96f85b14119b11ce60ce6fc54d89",
         "path": "sdk/examples/eightball",
@@ -267,17 +527,17 @@
     },
     {
       "backup": true,
-      "bytes": 208604,
+      "bytes": 210234,
       "category": "Finance",
-      "description": "Your Ethereum account, from maki's recovery phrase, as MetaMask and Ledger make it: for sites through the maki extension, maki desktop's wallet, and MetaMask by QR codes. Every transaction, message and permit is shown on maki before it signs.",
+      "description": "Your Ethereum account, from maki's recovery phrase, as MetaMask and Ledger make it, on Ethereum and the networks like it: for sites through the maki extension, maki desktop's wallet, and MetaMask by QR codes. Every transaction, message and permit is shown on maki before it signs.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
       "icon": "/////////////////////////////////////////////////////////3//////////f/////////8/+////////z/7////////H/P///////8P4////////w/j////////B8P///////8Dg////////wOD////////AQP///////8BA////////wAD/v////9/AAP8/////38AA/z/////PwAD+P////8fAAPw/////x8AA/D/////DwAD4P////8PAAPg/////wcAA8D/////A8AHgP////8DcB+A/////wEO4wD/////gAODA/7////gAAMO/v//fzgAAzj8//9/BwADwP3///8BAAMA/////wAAAwD+////AwADgP////8HAAPA////vx8AA/D7//9/fgAD/Pz////8AQN//v////AHwx/+////wQ/jB/////+DP/uD/////wf+/8D/////B/x/wP////8P8B/g/////x/AB/D/////P4AD+P////8/AAP4/////38AA/z//////wAD/v//////AQP///////8BA////////wOD////////B8P///////8P4////////w/j////////H/P///////8/+////////3//////////f/////////////////////////////////////8=",
       "id": "com.leviathan.maki.ethereum",
       "kind": "wasm",
-      "label": "1.1",
+      "label": "1.2",
       "memory_kib": 1024,
       "name": "Ethereum",
-      "path": "apps/com.leviathan.maki.ethereum/2.maki",
+      "path": "apps/com.leviathan.maki.ethereum/3.maki",
       "permissions": [
         {
           "name": "link",
@@ -292,13 +552,41 @@
           "reason": "To sign the transactions and messages you approve on maki's screen, and nothing else."
         }
       ],
-      "sha256": "20644df8fc9446c9c67a92298ebb886d5aeadb3be46b4c14c08e9e861932fe47",
+      "sha256": "d2bddae1101ce625046e964751ac483fb2b891eb80c0dba51bc5d1852f6c1e14",
       "source": {
-        "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
+        "commit": "043375b1a9aca07cc88240f84253cd0c44a9c8a7",
         "path": "sdk/examples/ethereum",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
+      "version": 3
+    },
+    {
+      "backup": true,
+      "bytes": 87035,
+      "category": "Productivity",
+      "description": "Decks to study a card at a time: the centre turns a card over, then left says you didn't know it and right that you did. Cards you know come back less and less often (Leitner's boxes). maki desktop sends the decks, from a CSV file, pasted text or Anki: up to 8, of up to 1000 cards, in 64 KiB.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////////////////////////////////////////Af7//////w8A/P////9/AAD4/////wcAAPj///8/AAAA+P///wEAAAD4//8PAAAAAPj//wAAAAAA8P9/AAAAAADw/z8AAAAAAPD/PwAAAAAA8P8/AAAAAADg/z8AAAAAAOD/PwAAAAAA4P8/AAAAAADg/z8AAAAAAOD/fwAAAAAAwP9/AAAAAADA////////B8D///////8fwP///////z/A/wAAAAAAeIB/AAAAAADwgD8AAAAAAOCAPwAAAAAA4IA/AAAAAADggB8AAAAAAMCBHwAAAAAAwIEfAAAAAADAwR8AAAAAAMDhHwD+//8DwP8fAP///wfA/x8A////B8D/HwD///8HwP8fAP7//wPA/x8AAAAAAMD/HwAAAAAAwP8fAAAAAADA/x8AAAAAAMD/HwAAAAAAwP8fAMD/HwDA/x8A4P8/AMD/HwDg/z8AwP8fAOD/PwDA/x8AwP8fAMD/HwAAAAAAwP8fAAAAAADA/x8AAAAAAMD/HwAAAAAAwP8/AAAAAADg/z8AAAAAAOD/PwAAAAAA4P9/AAAAAADw//8AAAAAAPj///////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.flashcards",
+      "kind": "wasm",
+      "label": "1.1",
+      "memory_kib": 256,
+      "name": "Flashcards",
+      "path": "apps/com.leviathan.maki.flashcards/2.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can send it decks, show their cards and what's due, and replace or remove them."
+        }
+      ],
+      "sha256": "0022ded77fc9247ff7877aa5f417e69f2920432730ce243ae1a72f1dffba12e7",
+      "source": {
+        "commit": "5f3599ff5b895d9b2a280ae6dc30ea24101a2952",
+        "path": "sdk/examples/flashcards",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 64,
       "version": 2
     },
     {
@@ -315,7 +603,7 @@
       "name": "Initiative",
       "path": "apps/com.leviathan.maki.initiative/1.maki",
       "permissions": [],
-      "sha256": "77a42e2b603a7434312fb32fd5ddf61229edcebac2e9862b38f97f370d072cf5",
+      "sha256": "3602759131c3a56cc625901a5ec0070d68333c697b12414ebc5f9852874aa9c5",
       "source": {
         "commit": "535f9c2fc76c4aa2094a4906f72295cf924aa05a",
         "path": "sdk/examples/initiative",
@@ -343,7 +631,7 @@
           "reason": "To read how maki is tilted and pushed: the g-meter, the horizon and the level."
         }
       ],
-      "sha256": "ce3cc0cb0f362c601a596069ef9f0e6a407825d2e9bab810d9a32e2a001e219c",
+      "sha256": "e3abea9a9900f727b25814308f4b96e911465cef4d4191517f226a1e241c558f",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/instruments",
@@ -351,6 +639,38 @@
       },
       "storage_kib": 1,
       "version": 2
+    },
+    {
+      "backup": true,
+      "bytes": 72889,
+      "category": "Finance",
+      "description": "Your Kaspa wallet, from maki's recovery phrase: the account Kaspium, Kaspa NG and Ledger's Kaspa app make from it, for maki desktop's wallet. Every payment, the change and the fee shown on maki before it signs.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////AYD//////z8AAPz/////DwAA8P////8DAADA/////wDwDwD///9/AP//AP7//x/A//8D+P//D/D//w/w//8H/P//P+D//wP+//9/wP//AX/8//+A//+BP/j/4IH//8Af8H/gA/9/4B/wP+AH/n/wH/Af4A/+P/gf8A/gH/w/+B/wB/Af/B/8H/AD+D/4H/wf8AH8P/gP/h/wAP5/8A/+H3AA/3/wD/8fMID///AH/x8QwP//4Af/HwDg///gB/8fAPD//+CH/x8A+P//4Yf/HwD8///hh/8fAP7//+GH/x8A////4Yf/H4D////hh/8fAP///+GH/x8A/v//4Yf/HwD8///hB/8fAPj//+AH/x8A8P//4Af/HxDg///gD/8fMMD///AP/h9wgP9/8A/+H/AA/3/wH/wf8AH8P/gf/B/wA/g/+D/4H/AH8B/8P/gf8A/gH/x/8B/wH+AP/n/gH/A/4Af+/8Af8H/gA///gT/4/+CB//8Bf/z//4D//wP+//9/wP//B/z//z/g//8P8P//D/D//x/A//8D+P//fwD//wD+////APAPAP////8DAADA/////w8AAPD/////PwAA/P//////AYD///////////////////////////////////8=",
+      "id": "com.leviathan.maki.kaspa",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "Kaspa",
+      "path": "apps/com.leviathan.maki.kaspa/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, addresses and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "9e309c5db6cf4cf513f8910ad6a2e39f9183480a5013a1533af634f5885ba943",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/kaspa",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 16,
+      "version": 1
     },
     {
       "backup": true,
@@ -366,7 +686,7 @@
       "name": "Life",
       "path": "apps/com.leviathan.maki.life/2.maki",
       "permissions": [],
-      "sha256": "1eaedd70363b9a779f8483cfe597eddc555109b94570c053e99168850cebe8a1",
+      "sha256": "e9c08de9ad300c880e0bb441ccdc7feaa4f6fedade0915f5339f627ed4303c43",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/life",
@@ -377,35 +697,71 @@
     },
     {
       "backup": true,
-      "bytes": 39358,
+      "bytes": 97203,
+      "category": "Finance",
+      "description": "Your Litecoin wallet, from maki's recovery phrase: the native SegWit and taproot accounts Litecoin Core, Electrum-LTC and Ledger make from it, for maki desktop's wallet. Every payment, the change and the fee shown on maki before it signs.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////AYD//////z8AAPz/////DwAA8P////8DAADA/////wDwDwD///9/AP//AP7//x/A//8D+P//D/D//w/w//8H/P//P+D//wP+//9/wP//Af/H//+A//+B/4P//4H//8D/Af//A/9/4P8B//8H/n/w/wH//w/+P/j/Af//H/w/+P8B//8f/B/8/wH//z/4H/z/Af//P/gP/v8B//9/8A/+/wH//3/wD///Af////AH//8BH///4Af//wEH/v/gB///AQH+/+CH//8BAP7/4Yf//wEA///hh///AcD//+GH//8B8P//4Yf//wD8///hh/8/AP///+GH/w8A////4Yf/AwD////hB/8BAP///+AH/wEA////4Af/gQH////gD//jAf////AP/v8B//9/8A/+/wH//3/wH/z/AQDAP/gf/P8BAIA/+D/4/wEAAB/8P/j/AQAAH/x/8P8BAAAP/n/g/wMAgAf+/8D/BwDAA///gf////+B//8B/////4D//wP+//9/wP//B/z//z/g//8P8P//D/D//x/A//8D+P//fwD//wD+////APAPAP////8DAADA/////w8AAPD/////PwAA/P//////AYD///////////////////////////////////8=",
+      "id": "com.leviathan.maki.litecoin",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 1024,
+      "name": "Litecoin",
+      "path": "apps/com.leviathan.maki.litecoin/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, addresses and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "3fd842b642dbcb1040351221906f44590c82db936253cb7b782ba53c4d709cd7",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/litecoin",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 53765,
       "category": "Tools",
       "description": "Keystrokes maki types into a computer at the press of a button: text, keys, and DuckyScript, loaded from maki desktop. For demos, pentests and your own machine, run with you holding maki, on its own screen. It can open and run programs, so run only scripts you trust and understand.",
       "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
       "icon": "////////////////////////////////////////////////////////////////fwDgAYAHAPw/AOAAAAcA/D8A4AAABwD8PwDgAAAHAPw//OEAAIc//D/84QAAhz/8P/zhAACHP/w//OEAAIc//D/84QAAhz/8P/zhAACHP/w//OEAAIc//D8A4AAABwD8PwDgAAAHAPw/AOAAAAcA/D8A4AAABwD8////////////////////////////////fwDgAYAHAP4/AOAAAAcA/D8A4AAABwD8PwDgAAAHAPw/+OHgB4c//D/84fAPhz/8P/zh8A+HP/w//OHwD4c//D/84fAPhz/8P/zh8A+HP/w//OHwD4c//D/44eAHhz/8PwDgAAAHAPw/AOAAAAcA/D8A4AAABwD8fwDgAYAHAP7///////////////////////////////8/AOAAAAcA/D8A4AAABwD8PwDgAAAHAPw/AOAAAAcA/D/84fAPhz/8P/zh8A+HP/w//OHwD4c//D/84fAPhz/8P/zh8A+HP/w//OHwD4c//D/84fAPhz/8PwDgAAAHAPw/AOAAAAcA/D8A4AAABwD8PwDgAYAHAPz///////////////////////////////////////////////////////////////8=",
       "id": "com.leviathan.maki.macropad",
       "kind": "wasm",
-      "label": "1.0",
+      "label": "1.1",
       "memory_kib": 128,
       "name": "Macro Pad",
-      "path": "apps/com.leviathan.maki.macropad/1.maki",
+      "path": "apps/com.leviathan.maki.macropad/2.maki",
       "permissions": [
         {
+          "name": "ask",
+          "reason": "To show you a script the computer sends, and ask you before it keeps, replaces or removes one."
+        },
+        {
           "name": "link",
-          "reason": "To receive the scripts you send it from maki desktop."
+          "reason": "So maki desktop can send it scripts, read them back for you to edit, and remove them."
         },
         {
           "name": "keyboard",
           "reason": "To type your scripts into the computer: text, keys and shortcuts that can open and run programs."
         }
       ],
-      "sha256": "208b1a7fa1ee2ecfe71f349d1ea012442cebb88d2b68b465b66b261645a18c0d",
+      "sha256": "93c336c77ce2d3cd7216bf151da630bc3656505baa8dd882036cf066e996b994",
       "source": {
-        "commit": "35e43eb39ccbc8878b5e1a6ce43eb7d47cfaeda1",
+        "commit": "3f30992ff5b583844dc07d38845f8f2667c92185",
         "path": "sdk/examples/macropad",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 32,
-      "version": 1
+      "version": 2
     },
     {
       "backup": true,
@@ -426,7 +782,7 @@
           "reason": "To roll the marble as you tilt maki."
         }
       ],
-      "sha256": "f72a157dda4e02410b3210e8d7e0fcd494446083b18a09c072c574d6a70c0351",
+      "sha256": "2d2a80f1c0f6690cc6ec687e2f085a180c640229fb9074884d6084ad7fc070c4",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/marble",
@@ -449,7 +805,7 @@
       "name": "Minesweeper",
       "path": "apps/com.leviathan.maki.minesweeper/1.maki",
       "permissions": [],
-      "sha256": "7187734080b7b7d63e66e4dc5cc6a66c17819a37f97205953c454329c0471207",
+      "sha256": "248f5f6da2cbc83ee684a608ae672bbc283b208d8d5d3c7ccc1b70319b54af68",
       "source": {
         "commit": "e757cd61b42b4bdd8e3d68f9e587f5d194422fa7",
         "path": "sdk/examples/minesweeper",
@@ -485,7 +841,7 @@
           "reason": "For your minisign key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "ab01f30e45bd60cb0eb347b2c85a42271eafca0c9a33774dc4972cd4ba88a57a",
+      "sha256": "0237da5a3766fb0ad1ed59df8f61c30e277f5e2454f022d0ff0bcf424edcd352",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/minisign",
@@ -517,7 +873,7 @@
           "reason": "Your addresses, your backup words shown by maki, the view key when you say, and signing on a yes."
         }
       ],
-      "sha256": "16f6aab0d5812f5d2dd3718a68cf7ae13bfc79deafe1c412a361c640d72b79ad",
+      "sha256": "e5183eeccb40caa68f45dc80005f5267d4bfdeb280153ddd98159b36ac7fc8d1",
       "source": {
         "commit": "f98e9eebfc6ff5ed293baa4071ad19019bea02da",
         "path": "sdk/examples/monero",
@@ -545,7 +901,7 @@
           "reason": "To type what you key into the computer, once you turn typing on."
         }
       ],
-      "sha256": "1362a8a13ec7164d70dc84b764a3d340c00252afdcc5459e869dadc332905600",
+      "sha256": "ef3dc20cb51603503030c79a802f6e913b05beeb910a05ec8ae4216e00470fff",
       "source": {
         "commit": "3a51c00f90fc7ffae47e54e57fa89508b177b901",
         "path": "sdk/examples/morse",
@@ -573,13 +929,45 @@
           "reason": "To read your name tag from a QR code you make: your name, a line under it, and a link."
         }
       ],
-      "sha256": "4ededd56444d10163ae0b0c1935b9986aba3c0a6c88d283d6298ecdf1c4b08ed",
+      "sha256": "e1a2f70ed4e0a45fba3f0abe371d8d5459cd1bdbdddd5c424bb98a6f10437b88",
       "source": {
         "commit": "e757cd61b42b4bdd8e3d68f9e587f5d194422fa7",
         "path": "sdk/examples/nametag",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 100560,
+      "category": "Finance",
+      "description": "Your NEAR account, from maki's recovery phrase, as MyNearWallet, near-cli and Trust Wallet make it: for maki desktop's wallet. Every NEAR and token payment, contract call, key, stake and fee is shown on maki before it signs, and anything that would hand the account to another is called out.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+P//P/7//3/w//8f/P//P+D//w/4//8/wP//D/j//z+A//8P+P//PwD//w/4//8/AP7/D/j//z8A/v8P+P//PwD8/w/4//8/APj/D/j//z8A8P8P+P//PwDg/w/4//8/AMD/D/j//z8AwP8P+P//PyCA/w/4//8/YAD/D/j//z/gAP4P+P//P+AB/A/4//8/4AH4D/j//z/gA/gP+P//P+AH8A/4//8/4A/gD/j//z/gH8AP+P//P+A/gA/4//8/4D8AD/j//z/gfwAP+P//P+D/AA74//8/4P8BDPj//z/g/wMI+P//P+D/BwD4//8/4P8HAPj//z/g/w8A+P//P+D/HwD4//8/4P8/APj//z/g/38A+P//P+D//wD4//8/4P//APj//z/g//8B+P//P+D//wP4//8/4P//B/j//z/g//8P+P//f/D//x/8////+P//P/7///////////////////////////////////////////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.near",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "NEAR",
+      "path": "apps/com.leviathan.maki.near/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "1e606edd5edf0fe5fb890d787aa2523a910835d4e0bd62f6c9100d074b329b64",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/near",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
       "version": 1
     },
     {
@@ -609,7 +997,7 @@
           "reason": "For your Nostr key: maki's, from your recovery phrase, the same on a restored maki."
         }
       ],
-      "sha256": "6ef3cc166594919c346155f4bd8e228965c009fbff62a5de45d29ee98fa3c99f",
+      "sha256": "00d9dcc78d3df8dfdfb7a343bf0cbfb3be1d33aba89f7494d8090c098646ce23",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/nostr",
@@ -649,7 +1037,7 @@
           "reason": "To read a note from a QR code when you pick Scan a note."
         }
       ],
-      "sha256": "121fab9557e32204d597f49db816125ac4a58f35853c9c30fc84e7fa31645082",
+      "sha256": "2f30bf66a93e965014690ecb2574493e286e90d49fdb783706fbb6cff68d42ac",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/notes",
@@ -685,7 +1073,7 @@
           "reason": "For your OpenPGP keys, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "5908c72bc4e12b5f438acef73b2621699edb98243719c77577efce6e2babf180",
+      "sha256": "eb491b696c0da7c21d6075d361a35ffb14b0ad78a416a28f559e924db75456d8",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/openpgp",
@@ -713,13 +1101,49 @@
           "reason": "To type the passphrase into your computer when you pick Type it, so you needn't copy it by hand."
         }
       ],
-      "sha256": "26b3de81602cd5f10915cee255ef7152f66e3cdccf0d8feb7748e6fe41b13f14",
+      "sha256": "cf99997fec3925fbc713a7483621be976dcdb0683a19e93f6ae137ae643478db",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/passphrase",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 38378,
+      "category": "Security",
+      "description": "Passwords made from your recovery phrase (BIP-85), typed by maki: none stored, so restoring maki restores them all. maki desktop says which is which (a site, a username, a number); maki types or shows each itself, after a yes. By number, the passwords a Coldcard's Type Passwords types.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////z8AAAAAAAD8HwAAAAAAAPgPAAAAAAAA8Af////////gg////////8HD////////w+P////////H4///////58fj///////Dx+P//////8PH4///////w8fjjz9//PnDx+MHDzx44MPH4wMOHHDgw8fjAwYYMMDDx+MDBhgwwMPH4wMOHHDgw8fjBw88eODDx+OPP3/8+cPH4///////w8fj///////Dx+P//////8PH4///////58fj////////x8P////////Dg////////8EH////////4A8AAAAAAADwHwAAAAAAAPg/AAAAAAAA/P////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.passwords",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "Password Maker",
+      "path": "apps/com.leviathan.maki.passwords/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can say which password is which. It never sees the passwords."
+        },
+        {
+          "name": "keyboard",
+          "reason": "To type a site's username, and the Tab and Enter around its password."
+        },
+        {
+          "name": "wallet",
+          "reason": "To have maki make your passwords from your recovery phrase and type or show them itself."
+        }
+      ],
+      "sha256": "9038431a610bfa640208bce988d41653e8fb7bac42aa3f817aedacc532c06987",
+      "source": {
+        "commit": "ad1d7836c809dd284d471b005282ff0cfb2d6005",
+        "path": "sdk/examples/passwords",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 16,
       "version": 1
     },
     {
@@ -736,7 +1160,7 @@
       "name": "Pomodoro",
       "path": "apps/com.leviathan.maki.pomodoro/4.maki",
       "permissions": [],
-      "sha256": "ca1f3113ac23a65ea1d7adf1933fd36602f87f0c356129bf81ec45cdc1cb61f9",
+      "sha256": "c4b0eea85fd3fff1b775c5d62ca6c24189497d68c4067cbfaaebab2d0a6ae887",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/pomodoro",
@@ -764,7 +1188,7 @@
           "reason": "To change your slides: Page Down, Page Up, B to blank the screen, F5 and Esc to start and end."
         }
       ],
-      "sha256": "4d52860275ea0b2b3e72f42c3ba360a426c71bd4400a63d6d8a851638de174c3",
+      "sha256": "b5a45febd778a753074660c32eb306deb4b13a0ae7876d5c09bb5b5f59b2bc07",
       "source": {
         "commit": "a4d09028ebf6ac482d90ef548f4e605c9b157628",
         "path": "sdk/examples/presenter",
@@ -796,7 +1220,7 @@
           "reason": "To read QR codes when you press the centre."
         }
       ],
-      "sha256": "13296d010da0ff3dc7da1b9eced32ac080b6be5fabbee412111f86ca16171310",
+      "sha256": "ac416f468ddaf03e014091faaeebfc40541ad2d424e0e9b3a499861d00d9ad30",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/scanner",
@@ -828,13 +1252,41 @@
           "reason": "For the spirit level."
         }
       ],
-      "sha256": "1a8307147ccbb29216cbe611dd3e9ba1f1e164374a7e74971bf9a35aa14b6b4b",
+      "sha256": "3562abe11cdd0a4bba7f8311bf817ae8df119b3990bfce03a32f2f65a43eefd0",
       "source": {
         "commit": "a2d58764d62bff597f19a5f577cba22aa864f381",
         "path": "sdk/examples/sensors",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": false,
+      "bytes": 24210,
+      "category": "Tools",
+      "description": "What your computer sends, on maki's screen as a QR code for a phone to scan: a link, a Wi-Fi network, an address, a short text. The centre shows the text; it keeps the last five. It shows the computer's word: for an address to be paid at, use the wallet's own app on maki.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "/////////////////////wcAAMAHAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAg///w4P//8PD///Dw///w8P//8PD///Dw///w8P//8PDB8DDwwfAw8MDwMPDA8DDwwPAw8MDwMPDA8DDwwPAw8MDwMPDA8DDwwPAw8MDwMPDA8DDwwPAw8MDwMPDA8DDwwPAw8MDwMPDA8DDwwPAw8MDwMPDA8DDwwPAw8MDwMPD///Dw///w8P//8PD///Dw///w8P//8PD///Dw///wwMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADA//////////////////////////////////////////8HAADAxwd8wAMAAMDDAzzAAwAAwMMDPMADAADAwwM8wIP//8M/PMDDw///wz88wMPD///DPzzAw8P//8M/PMDDwwfAwwf8A/zDA8DDA/wD/MMDwMMD/AP8wwPAwwP8A/zDA8DD/wP8w8MDwMP/A/zDwwPAw/8D/MPDA8DD/wP8w8MDwMPHgwP8wwPAw8PDA/zDA8DDw8MD/MMDwMPDwwP8w///wz88/MPD///DPzz8w8P//8M/PPzDw///wz88/MMDAADAxwN8/AMAAMDDAzz8AwAAwMMDPPwDAADAwwM8/P////////////////////8=",
+      "id": "com.leviathan.maki.showqr",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 64,
+      "name": "Show QR",
+      "path": "apps/com.leviathan.maki.showqr/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop, or software through it, can send it things to show and ask what it's showing."
+        }
+      ],
+      "sha256": "923b65b385eac038db8cd0ee57df2265e42d6a6de7d698e485276a18510507db",
+      "source": {
+        "commit": "0799ea3ee55068477d8b7f390db8935fe2c28ea2",
+        "path": "sdk/examples/showqr",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 4,
       "version": 1
     },
     {
@@ -851,7 +1303,7 @@
       "name": "Snake",
       "path": "apps/com.leviathan.maki.snake/2.maki",
       "permissions": [],
-      "sha256": "473e42a1504d972ce7d051a85c0064ee49e1bb100eec89184cd7f31d0baf59f1",
+      "sha256": "6b3b1d64633264e08a4d3322b0cbbd495b79792c5e4750e9640f090b92916bc9",
       "source": {
         "commit": "4beea85d116c5883cf45d781aae3b6d6d0b0f711",
         "path": "sdk/examples/snake",
@@ -859,6 +1311,29 @@
       },
       "storage_kib": 1,
       "version": 2
+    },
+    {
+      "backup": true,
+      "bytes": 37303,
+      "category": "Games",
+      "description": "Push every box onto a goal: left and right and the jog dial on maki's side walk, and the centre takes moves back. The levels are David W. Skinner's Microban, 148 small puzzles, each drawn as big as it fits. Keeps the level you left and each level's fewest moves.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8PAADw/////w8AAPD/////DwAA8P////8PAADw//8/gA////Cf/x8AD///8A//DwAO/8/wB/6HIQz/x/Bj/MdzDP/j8PH4w3MI//Hw+PGDIQj/+HD84wMACH/8MP7HAwAIP/4w/scDAAgf/3D84wMACI//8PjxBwAMx//w8fgHAAzj//Bj/A8ADvP/8Af+HwAP///wD/8/gA////Cf////DwAA8P////8PAADw/////w8AAPD/////DwAA8P////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.sokoban",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 64,
+      "name": "Sokoban",
+      "path": "apps/com.leviathan.maki.sokoban/1.maki",
+      "permissions": [],
+      "sha256": "0fa31760404af6cb6eab5bf353160c518ce8f2a78ae2160064aec389344c59f0",
+      "source": {
+        "commit": "1153f72a69ae35caf2df94528766e5e5e66295df",
+        "path": "sdk/examples/sokoban",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 1,
+      "version": 1
     },
     {
       "backup": true,
@@ -883,7 +1358,7 @@
           "reason": "To sign the transactions and messages you approve on maki's screen, and nothing else."
         }
       ],
-      "sha256": "41a1bfce730b490b2af82fa7c0d5bf79dc47bc6d0b84c457dc39c319a86ebd14",
+      "sha256": "a903d8e624af41b69414861d1ca2f1175b1e61c61a49b06d630b8aaf6613d561",
       "source": {
         "commit": "f080fd51f4093508097cedaab0dee7e2f2ac0a13",
         "path": "sdk/examples/solana",
@@ -919,7 +1394,7 @@
           "reason": "For your SSH key, made from your recovery phrase and never leaving maki."
         }
       ],
-      "sha256": "e588ad9c82cd3ace9eaf51c46c9feafb676c04d23126033512e8704817aee040",
+      "sha256": "03573378ed936ce7e00fbe661b6d762eaeed2ab47e1a0d1b99383dd50a31fffb",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/ssh",
@@ -947,13 +1422,45 @@
           "reason": "So software on your computer can set the status (when a call starts, say) or ask what it is."
         }
       ],
-      "sha256": "3d3074fa199c6db51c9cbea62462273c15ed2cd4109ecbb948df851fb55325d3",
+      "sha256": "f91edff52164037926693bb839b5cb62a25b3afead707543849ed1c022201fae",
       "source": {
         "commit": "4ceb61845662c57346107a7ab201a0ae3e66e141",
         "path": "sdk/examples/status",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 145950,
+      "category": "Finance",
+      "description": "Your Stellar account, from maki's recovery phrase, as SEP-5 has it (Freighter's and Ledger's too): for maki desktop's wallet. Every payment, trade and trustline, anything that changes who can sign for the account, and the fee are shown on maki before it signs.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////A4D///////8AAP7/////PwAA+P////8PAADg/////wf4P8A//P//A/7/gA/8//+B//8DA/z//8D//4cB/v9/8P//f4D//3/w//8f4P//P/j//wf4//8//P//Afz//x/8/38AP/z/H/7/P8AP/P8P/v8P8AP8/w///wP8Af7/D///AH+A//8P/z+AH+D//w//D+AH+P//D/8D+AHs//8P/wF+AOP//w9/gD/A4f//Dx/gD/Dh//8PB/gD/OH//48B/AD/4f//bwA/gP/h//8/wA/g/+D//w/wA/j/8P//A/wB/n/w//8Af4D/f/j/f4Af4P8/+P9/4Af4/x/8/3/4Afz/H/z//38A//8H/v//P8D//wP///8PMP7/gP///wMM+D/A////AA8AAOD//3+APwAA+P//f+D/AAD+//9/+P8DgP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.stellar",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "Stellar",
+      "path": "apps/com.leviathan.maki.stellar/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "0b858eba3abd6d96e570fbcc7c3e7202d1057ccbc77ea4e15d4074ef67ea5109",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/stellar",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
       "version": 1
     },
     {
@@ -983,13 +1490,68 @@
           "reason": "For the key your computer's sudo checks your yes with, from your recovery phrase."
         }
       ],
-      "sha256": "e9e7279d41d66a0e5bdb33212c7fa5dd21884c8dbb8a9dc4ea082ff1675222fb",
+      "sha256": "cdb626425b7b14dcca065d9c565c397022e73e1619638b66ab71e844b486c863",
       "source": {
         "commit": "a998b9a9ee1f96f85b14119b11ce60ce6fc54d89",
         "path": "sdk/examples/sudo",
         "repo": "https://github.com/KaraZajac/maki-firmware"
       },
       "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 34131,
+      "category": "Games",
+      "description": "Sudoku made on maki: every puzzle is new, has one solution, and is graded easy to expert by what solving it takes. Left, right and the jog dial move; the centre opens a picker to write a digit or pencil marks in. Keeps the puzzle you left and your best times; shows mistakes only if you ask.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "AAAAAAAAAIAAAAAAAAAAgAAAAAAAAACA+P+P///4/4/4vo/v+/i+j/j/j///+P+P+L6P7/v4vo/4/4////j/j6iqiqqqqKqK+P+P///4/4/4vo/v+/i+j/j/j///+P+P+L6P7/v4vo/4/4////j/j6iqiqqqqKqK+P+P///4/4/4vo/v+/i+j/j/j///+P+P+L6P7/v4vo/4/4////j/jwAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgPj/j///+P+P+L6PA/D4vo/4/48D8Pj/j/i+j/P/+L6P+P+P8//4/4+oqooD/Kiqivj/jwP8+P+P+L6P//P4vo/4/4//8/j/j/i+j//z+L6P+P+P//P4/4+oqorz86iqivj/j/Pz+P+P+L6PD/z4vo/4/48P/Pj/j/i+j///+L6P+P+P///4/48AAAAAAAAAgAAAAAAAAACAAAAAAAAAAID4/4////j/j/i+j+/7+L6P+P+P///4/4/4vo/v+/i+j/j/j///+P+PqKqKqqqoqor4/4////j/j/i+j+/7+L6P+P+P///4/4/4vo/v+/i+j/j/j///+P+PqKqKqqqoqor4/4////j/j/i+j+/7+L6P+P+P///4/4/4vo/v+/i+j/j/j///+P+PAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACA//////////8=",
+      "id": "com.leviathan.maki.sudoku",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 64,
+      "name": "Sudoku",
+      "path": "apps/com.leviathan.maki.sudoku/1.maki",
+      "permissions": [],
+      "sha256": "c159d3794c0090000a40d4227b32bea7b93bfd66e8d591ea6e9169775dc6f9be",
+      "source": {
+        "commit": "1153f72a69ae35caf2df94528766e5e5e66295df",
+        "path": "sdk/examples/sudoku",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 1,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 127374,
+      "category": "Finance",
+      "description": "Your Sui account, from maki's recovery phrase, as Slush and Ledger make it: for maki desktop's wallet. Every SUI and token payment, object sent, stake and fee is shown on maki before it signs; a Move call it can't read is flagged with what it's given, and nothing handing the account over is signed.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////////////////////////////////////f/z///////8/+P///////z/4////////H/D///////8f8P///////w/g////////D+D///////8Hwf///////wOB////////g4P///////+BA////////8EH////////4A/+///////gD/7/////f/Af/P////8/8B/4/////z/4P/j/////H/g/8P////8f/H/w/////w/+/+D/////D/7/4P////8H///B/////wP//4H/////g///g/////+D//+D/////8f//8f/////4f//D/////9gwP8P/v///xAA/x/+////EAD+H/7//38QAP4f/P//fxAf/B/8//9/kD/8H/z//3+QP/wf/P//f9A/+Bf8////8H/4E/7////wf/gT/v///+B/8An+////4P8ACP7////B/wAE/////4H/AQL/////g/8Hg/////8D/v+A/////wf8f8D/////D/Af4P////8fAADw/////z8AAPj//////wAA/v//////A4D///////8/+P////////////////////////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.sui",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "Sui",
+      "path": "apps/com.leviathan.maki.sui/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, show you its address, and ask for signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the Sui transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "cd694554bce9a6ee9e0fb3207806812773ede3ac8e4f2093c50189c52284adfc",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/sui",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
       "version": 1
     },
     {
@@ -1006,7 +1568,7 @@
       "name": "Tally",
       "path": "apps/com.leviathan.maki.tally/2.maki",
       "permissions": [],
-      "sha256": "aeb7673ce6e7faddb66c72c3b32eacd5a6eeffb0e3419c354947dfe261331cfb",
+      "sha256": "80e0b11989fdff830266b656cb2e9f079a70992e61891534d8730aceb4e2c9af",
       "source": {
         "commit": "e27f2e2a13ab42fa2cee20327c21f37c80728346",
         "path": "sdk/examples/tally",
@@ -1034,7 +1596,7 @@
           "reason": "To notice maki being moved while it's armed."
         }
       ],
-      "sha256": "96559d8570f8be2d617b761984d3153b03dd74c74ec984c83ed3d74514ec6408",
+      "sha256": "94815f293363a46a8ea14bd743d667bd3714ab9dcc046ca250d6e515ae65ef3a",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/tamper",
@@ -1042,6 +1604,70 @@
       },
       "storage_kib": 4,
       "version": 2
+    },
+    {
+      "backup": true,
+      "bytes": 90627,
+      "category": "Finance",
+      "description": "Your TON account, from maki's recovery phrase, as Ledger's TON app makes it, in its v4R2 and W5 wallets: for maki desktop's wallet. Every transfer, jetton and comment, and anything that sends everything or lets another take from the wallet, is shown on maki before it signs.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////AYD//////z8AAPz/////DwAA8P////8DAADA/////wDwDwD///9/AP//AP7//x/A//8D+P//D/D//w/w//8H/P//P+D//wP+//9/wP//Af////+A//+B/////4H//8D/////A/9/4P////8H/n/w/////w/+P/gAAAAAH/w/eAAAAAAe/B98AAAAAD74H3wAAAAAPvgP/gAAAAB/8A/+4D/8B3/wD//BP/yD//AH/8E//IP/4Af/gz/8wf/gB/+DP/zB/+CH/wc//OD/4Yf/Bz584P/hh/8PPnzw/+GH/x88PPj/4Yf/Hzw8+P/hh/8/OBz8/+GH/z84HPz/4Yf/fzAM/v/hB/9/MAz+/+AH//8gBP//4Af//wAA///gD///AYD///AP/v8DwP9/8A/+/wPA/3/wH/z/B+D/P/gf/P8H4P8/+D/4/w/w/x/8P/j/D/D/H/x/8P8f+P8P/n/g/x/4/wf+/8D/P/z/A///gf9//v+B//8B/////4D//wP+//9/wP//B/z//z/g//8P8P//D/D//x/A//8D+P//fwD//wD+////APAPAP////8DAADA/////w8AAPD/////PwAA/P//////AYD///////////////////////////////////8=",
+      "id": "com.leviathan.maki.ton",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "TON",
+      "path": "apps/com.leviathan.maki.ton/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transfers you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "869860a45031a924f0e0157dbf89ea30e73e441f0f276157eb1332b151aa3bfb",
+      "source": {
+        "commit": "bbc7ca37edee0796dd98feb51c0e0daef73441c6",
+        "path": "sdk/examples/ton",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 84702,
+      "category": "Finance",
+      "description": "Your Tron account, from maki's recovery phrase, as TronLink and Ledger make it: for maki desktop's wallet. Every TRX and token payment, stake, vote and fee is shown on maki before it signs, and nothing that would hand the account to another is signed at all.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////3/A////////fwD8//////9/AID//////38AAPD//////wAAAP7/////AAAAwP////8BYAAA/P///0HABwCA////wwD/AADw//+DA/wfAAD+/4cP+P8DAPz/Bx/g/38A/P8Pf4D//wH8/w/+Af9/AP7/H/4D/B8A/v8f/A/wBwD//z/8P+AAgP//P/h/AADB//9/+P8BwMH//3/w/wf44P////D/D37w////4P8PP/j////h/wc/+P///8H/hx/8////w/+HD/7///+D/4cH/////4f/wwf/////B//Dg/////8P/8PB/////w/+weD/////H/5h8P////8f/GHw/////z/8IPj/////P/gQ/P////9/+AD+/////39wAP7//////3AA////////YID///////9hwP///////wHA////////A+D///////8D8P///////wf4////////B/j///////8P/P///////w/+////////H/////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.tron",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 1024,
+      "name": "Tron",
+      "path": "apps/com.leviathan.maki.tron/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "f120aa46fa81647f1cc33fe0af72d3ba5660aed60302b236eb30832967e3d47b",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/tron",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
+      "version": 1
     },
     {
       "backup": true,
@@ -1066,7 +1692,7 @@
           "reason": "To read a network's QR code, from a router's sticker or a phone's share screen."
         }
       ],
-      "sha256": "b0d051e218d7b5bc3a31837dfd4fa16b66cd036ccaba0718bea078f169f4419a",
+      "sha256": "a7d424e60064b44f1624817c22ecc17c020c50aed5210697625f35b2b0f5ff83",
       "source": {
         "commit": "aac3d4adca6be705900429ef5e65d381171732f8",
         "path": "sdk/examples/wifi",
@@ -1074,53 +1700,117 @@
       },
       "storage_kib": 2,
       "version": 2
+    },
+    {
+      "backup": true,
+      "bytes": 143810,
+      "category": "Finance",
+      "description": "Your XRP Ledger account, from maki's recovery phrase, as Ledger, Xaman and Trust Wallet make it: for maki desktop's wallet. Every payment, its destination tag, any token and the fee are shown on maki before it signs; anything that hands the account over or deletes it is said loudly.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "/////////////////////////////////////////////////////////////////////////////////////x/////////xD/z/////f+AP8P////8f4A/w/////x/gH+D/////D/B/4P////8P/P/A/////wf+/4H/////A///gf////8D//8D/////4H//wf+////wP//B/z//3/A//8P+P//P+D//x/g//8P8P//P8D//wf4//9/AP7/APz///8A8B8A/v///wMAAID/////BwAAwP////8fAADw//////8AAP7//////wfA/////////////////////////////////////////////////////////////wfA////////AAD+/////x8AAPD/////BwAAwP////8DAACA/////wDwHwD+//9/AP7/APz//z/A//8H+P//H+D//w/w//8P+P//P+D//wf8//9/wP//B/7////A//8D/////4H//4H/////A///gf////8D///A/////wf+f+D/////D/wf4P////8P8A/w/////x/gD/D/////H+AP/P////9/4B/////////x//////////////////////////////////////////////////////////////////////////8=",
+      "id": "com.leviathan.maki.xrp",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "XRP",
+      "path": "apps/com.leviathan.maki.xrp/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, show you its address, and ask for signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the XRP Ledger transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "6bae4e9f70a7075527c467a62bb8955f6b4637cfe7e205e36e3dd8b2630573a5",
+      "source": {
+        "commit": "1e8d15dca32753d928241ac51c2f9959ecc479db",
+        "path": "sdk/examples/xrp",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
+      "version": 1
+    },
+    {
+      "backup": true,
+      "bytes": 90417,
+      "category": "Finance",
+      "description": "Your Zcash transparent wallet, from maki's recovery phrase: the t-address account Ledger, Zashi and zcashd make from it, for maki desktop's wallet. Every payment, the change and the fee shown on maki before it signs; shielded transactions refused, since maki can't see into them.",
+      "developer": "3d0dae13e118a151f2d3714323fb9ed0a2addd8a758de416f5452dcc3ced84fa",
+      "icon": "////////////////////////////////////AYD//////z8AAPz/////DwAA8P////8DAADA/////wDwDwD///9/AP//AP7//x/A//8D+P//D/A//A/w//8H/D/8P+D//wP+H/h/wP//Af8f+P+A//+B/x/4/4H//8D/H/j/A/9/4P8f+P8H/n/w/x/4/w/+P/gfAAD4H/w/+AcAAOAf/B/8BwAA4D/4H/wHAADgP/gP/gcAAOB/8A/+BwAA4H/wD/8fAADw//AH////A/j/4Af///8B/P/gB////wD+/+CH//9/AP//4Yf//z+A///hh///H8D//+GH//8P4P//4Yf//wfw///hh///A/j//+GH//8B/P//4Yf//wD+///hB/9/AP///+AH/z+A////4Af/H8D////gD/8PAAD4//AP/gcAAOB/8A/+BwAA4H/wH/wHAADgP/gf/AcAAOA/+D/4BwAA4B/8P/gfAAD4H/x/8P8f+P8P/n/g/x/4/wf+/8D/H/j/A///gf8f+P+B//8B/x/4/4D//wP+H/h/wP//B/w//D/g//8P8D/8D/D//x/A//8D+P//fwD//wD+////APAPAP////8DAADA/////w8AAPD/////PwAA/P//////AYD///////////////////////////////////8=",
+      "id": "com.leviathan.maki.zcash",
+      "kind": "wasm",
+      "label": "1.0",
+      "memory_kib": 256,
+      "name": "Zcash",
+      "path": "apps/com.leviathan.maki.zcash/1.maki",
+      "permissions": [
+        {
+          "name": "link",
+          "reason": "So maki desktop can ask for your account, addresses and signatures."
+        },
+        {
+          "name": "wallet",
+          "reason": "To sign the transactions you approve on maki's screen, and nothing else."
+        }
+      ],
+      "sha256": "ee589bb25652ff4b63579371c841cadeac3c47be2a676b10bdcbf78326b9d0a2",
+      "source": {
+        "commit": "00aa29571df832f62806b150fce3435e0148b886",
+        "path": "sdk/examples/zcash",
+        "repo": "https://github.com/KaraZajac/maki-firmware"
+      },
+      "storage_kib": 0,
+      "version": 1
     }
   ],
-  "expires": 2106264345,
+  "expires": 1793594082,
   "format": 1,
   "releases": {
     "desktop": {
-      "commit": "8ea543040d4d612ef85728ad09e80161a1c6ed22",
-      "date": "2026-10-01",
+      "commit": "02ff14f235101544444f04432818db8548c6375c",
+      "date": "2026-10-03",
       "files": [
         {
-          "bytes": 126481198,
-          "name": "maki-desktop-0.1.5-x86_64.AppImage",
+          "bytes": 126673884,
+          "name": "maki-desktop-0.1.6-x86_64.AppImage",
           "platform": "linux-x86_64",
-          "sha256": "e8d3785587a8f78ca70480e28ef392306cd1067c14a7d25c148b29b0578e0c74",
-          "url": "https://github.com/KaraZajac/maki-desktop/releases/download/v0.1.5/maki-desktop-0.1.5-x86_64.AppImage"
+          "sha256": "eebceac75d4bbe3538792601d24e1b0aad5fe8257b596e56fa0807ffee43619d",
+          "url": "https://github.com/KaraZajac/maki-desktop/releases/download/v0.1.6/maki-desktop-0.1.6-x86_64.AppImage"
         }
       ],
-      "name": "0.1.5",
-      "notes": "https://github.com/KaraZajac/maki-desktop/releases/tag/v0.1.5"
+      "name": "0.1.6",
+      "notes": "https://github.com/KaraZajac/maki-desktop/releases/tag/v0.1.6"
     },
     "firmware": {
-      "commit": "35e43eb39ccbc8878b5e1a6ce43eb7d47cfaeda1",
-      "date": "2026-10-01",
+      "commit": "5f3599ff5b895d9b2a280ae6dc30ea24101a2952",
+      "date": "2026-10-03",
       "files": [
         {
           "bytes": 354816,
           "name": "loader.uf2",
-          "sha256": "3e8d468e1115a2be0fca74fe9988d675c35bfea562dd9ed6b2ed46abe65e818c",
-          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-01.6/loader.uf2"
+          "sha256": "884bc7a90f609cc163bf9c9f8ca3da67e44232fa07c663240e49abceb702b299",
+          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-03/loader.uf2"
         },
         {
-          "bytes": 6186496,
+          "bytes": 6292992,
           "name": "xous.uf2",
-          "sha256": "9d3089091f962f937957e1386dc3a9ab9cfffa372c8c148bf1a8ab16386d1cac",
-          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-01.6/xous.uf2"
+          "sha256": "23c74f62924d82e44c08fac4a8fd033fcd9a79b2bcd437235d23690a5ee6fcc9",
+          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-03/xous.uf2"
         },
         {
-          "bytes": 7417856,
+          "bytes": 7689216,
           "name": "swap.uf2",
-          "sha256": "52fe9a04e87022891774b6b5aa9ad399388dca8c1979c78c2fa075efb6c1546e",
-          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-01.6/swap.uf2"
+          "sha256": "cb7523c082821c016f15ecc6f8032c4d6472384c484d0d2bd16ad5cf3c514b62",
+          "url": "https://github.com/KaraZajac/maki-firmware/releases/download/preview-2026-10-03/swap.uf2"
         }
       ],
-      "name": "preview-2026-10-01.6",
-      "notes": "https://github.com/KaraZajac/maki-firmware/releases/tag/preview-2026-10-01.6"
+      "name": "preview-2026-10-03",
+      "notes": "https://github.com/KaraZajac/maki-firmware/releases/tag/preview-2026-10-03"
     }
   },
   "root": 2,
-  "version": 2026100201
+  "version": 2026100304
 }

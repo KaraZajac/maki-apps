@@ -1,0 +1,7 @@
+# Stellar: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Finance"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "1e8d15dca32753d928241ac51c2f9959ecc479db"
+path = "sdk/examples/stellar"

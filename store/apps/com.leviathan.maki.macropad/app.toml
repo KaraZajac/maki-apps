@@ -3,5 +3,5 @@ category = "Tools"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "35e43eb39ccbc8878b5e1a6ce43eb7d47cfaeda1"
+commit = "3f30992ff5b583844dc07d38845f8f2667c92185"
 path = "sdk/examples/macropad"

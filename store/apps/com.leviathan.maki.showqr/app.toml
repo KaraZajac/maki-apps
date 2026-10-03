@@ -1,0 +1,7 @@
+# Show QR: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Tools"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "0799ea3ee55068477d8b7f390db8935fe2c28ea2"
+path = "sdk/examples/showqr"

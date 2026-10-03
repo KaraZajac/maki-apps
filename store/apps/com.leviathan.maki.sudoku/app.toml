@@ -1,0 +1,7 @@
+# Sudoku: where the store builds it from (scripts/check.sh), and where it's listed.
+category = "Games"
+
+[source]
+repo = "https://github.com/KaraZajac/maki-firmware"
+commit = "1153f72a69ae35caf2df94528766e5e5e66295df"
+path = "sdk/examples/sudoku"
