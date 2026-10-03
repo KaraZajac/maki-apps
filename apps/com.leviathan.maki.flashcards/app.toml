@@ -3,5 +3,5 @@ category = "Productivity"
 
 [source]
 repo = "https://github.com/KaraZajac/maki-firmware"
-commit = "1ebc489c190015e5951d2937b6f4f9ba972324d5"
+commit = "5f3599ff5b895d9b2a280ae6dc30ea24101a2952"
 path = "sdk/examples/flashcards"
